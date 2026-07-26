@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#eef2ff">
+  <title>学習アプリ</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="study">
+  <main class="container study-container">
+    <header class="page-header compact-header">
+      <h1 id="appTitle">学習アプリ</h1>
+      <p id="appDescription" class="lead"></p>
+    </header>
+
+    <section id="roundScreen" class="screen" aria-live="polite">
+      <h2>学習範囲を選択してください</h2>
+      <div id="roundList" class="menu-list"></div>
+      <a id="subjectBackLink" class="back-link" href="index.html">メニューへ戻る</a>
+    </section>
+
+    <section id="studyScreen" class="screen hidden" aria-live="polite">
+      <div class="study-status">
+        <span id="roundName"></span>
+        <span id="progressText"></span>
+      </div>
+
+      <article id="questionCard" class="question-card">
+        <p id="questionText" class="question-text"></p>
+        <p id="questionNote" class="question-note hidden"></p>
+        <div id="answerArea" class="answer-area hidden">
+          <p class="answer-label">答え</p>
+          <p id="answerText" class="answer-text"></p>
+          <p id="explanationText" class="explanation-text hidden"></p>
+        </div>
+      </article>
+
+      <div id="revealControls" class="controls">
+        <button id="showAnswerButton" class="primary-button" type="button">答えを見る</button>
+      </div>
+
+      <div id="judgementControls" class="controls two-column hidden">
+        <button id="unknownButton" class="secondary-button danger-button" type="button">わからなかった</button>
+        <button id="knownButton" class="secondary-button success-button" type="button">わかっていた</button>
+      </div>
+
+      <div class="study-footer-links">
+        <button id="quitButton" class="text-button" type="button">範囲選択へ戻る</button>
+      </div>
+    </section>
+
+    <section id="resultScreen" class="screen hidden" aria-live="polite">
+      <h2>学習結果</h2>
+      <div class="result-card">
+        <p>問題数：<strong id="resultTotal">0</strong></p>
+        <p>わかっていた：<strong id="resultKnown">0</strong></p>
+        <p>わからなかった：<strong id="resultUnknown">0</strong></p>
+      </div>
+      <div class="controls">
+        <button id="retryUnknownButton" class="primary-button hidden" type="button">今回わからなかった問題を復習</button>
+        <button id="returnRoundsButton" class="secondary-button" type="button">範囲選択へ戻る</button>
+      </div>
+    </section>
+
+    <section id="errorScreen" class="screen hidden" aria-live="assertive">
+      <p id="errorMessage" class="error"></p>
+      <a class="back-link" href="index.html">メニューへ戻る</a>
+    </section>
+  </main>
+  <script src="js/study.js"></script>
+</body>
+</html>

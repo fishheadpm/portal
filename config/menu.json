@@ -1,0 +1,130 @@
+{
+  "siteTitle": "学習アプリメニュー",
+  "subjects": [
+    {
+      "id": "japanese",
+      "name": "国語",
+      "items": [
+        {
+          "id": "ancient_auxiliary",
+          "title": "古文助動詞",
+          "type": "external",
+          "url": "https://fishheadpm.github.io/-ancient-cpp/"
+        },
+        {
+          "id": "kobun",
+          "title": "古文テスト対策",
+          "type": "external",
+          "url": "https://fishheadpm.github.io/kobun/"
+        },
+        {
+          "id": "difficult_words",
+          "title": "難読語",
+          "type": "external",
+          "url": "https://fishheadpm.github.io/dwords/"
+        },
+        {
+          "id": "kanbun",
+          "title": "漢文",
+          "type": "external",
+          "url": "https://fishheadpm.github.io/kanbun/"
+        },
+        {
+          "id": "kanji",
+          "title": "漢字",
+          "type": "external",
+          "url": "https://fishheadpm.github.io/kanji/"
+        }
+      ]
+    },
+    {
+      "id": "english",
+      "name": "英語",
+      "items": [
+        {
+          "id": "words",
+          "title": "ワードマラソン",
+          "type": "external",
+          "url": "https://fishheadpm.github.io/words/"
+        },
+        {
+          "id": "english_blanks",
+          "title": "穴埋め問題①",
+          "type": "external",
+          "url": "https://fishheadpm.github.io/e_blanks/"
+        },
+        {
+          "id": "breakthrough",
+          "title": "Breakthrough",
+          "type": "external",
+          "url": "https://fishheadpm.github.io/breakthrough/"
+        },
+        {
+          "id": "eiken_pre2",
+          "title": "英検準二級",
+          "type": "external",
+          "url": "https://fishheadpm.github.io/egrade_pre2/"
+        }
+      ]
+    },
+    {
+      "id": "math",
+      "name": "数学",
+      "items": []
+    },
+    {
+      "id": "science",
+      "name": "理科",
+      "items": [
+        {
+          "id": "chemistry_formula",
+          "title": "化学式",
+          "type": "external",
+          "url": "https://fishheadpm.github.io/chemistry-easy-app/"
+        },
+        {
+          "id": "chemistry_reaction",
+          "title": "化学反応式",
+          "type": "external",
+          "url": "https://fishheadpm.github.io/chemistry-hard-app/"
+        },
+        {
+          "id": "chemistry",
+          "title": "化学",
+          "type": "external",
+          "url": "https://fishheadpm.github.io/chemistry/"
+        },
+        {
+          "id": "biology",
+          "title": "生物",
+          "type": "external",
+          "url": "https://fishheadpm.github.io/biology/"
+        },
+        {
+          "id": "physics",
+          "title": "物理",
+          "type": "external",
+          "url": "https://fishheadpm.github.io/physics/"
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "name": "社会",
+      "items": [
+        {
+          "id": "history",
+          "title": "歴史",
+          "type": "external",
+          "url": "https://fishheadpm.github.io/history/"
+        },
+        {
+          "id": "citizens",
+          "title": "公民",
+          "type": "external",
+          "url": "https://fishheadpm.github.io/Citizens/"
+        }
+      ]
+    }
+  ]
+}
