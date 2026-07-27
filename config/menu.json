@@ -47,12 +47,6 @@
           "type": "common",
           "data": "data/english_words.json"
         },
-/*        {
-          "id": "english_blanks",
-          "title": "穴埋め問題①",
-          "type": "external",
-          "url": "https://fishheadpm.github.io/e_blanks/"
-        }, */
         {
           "id": "breakthrough",
           "title": "Breakthrough",
@@ -64,6 +58,12 @@
           "title": "英検準二級",
           "type": "external",
           "url": "https://fishheadpm.github.io/egrade_pre2/"
+        },
+        {
+          "id": "english_blanks",
+          "title": "穴埋め問題①",
+          "type": "external",
+          "url": "https://fishheadpm.github.io/e_blanks/"
         }
       ]
     },
