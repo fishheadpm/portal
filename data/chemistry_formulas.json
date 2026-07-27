@@ -1,0 +1,617 @@
+{
+  "schemaVersion": 1,
+  "app": {
+    "id": "chemistry_formulas_equations",
+    "title": "化学式・化学反応式",
+    "description": "物質名から化学式を答える問題と、反応内容から化学反応式を答える問題",
+    "vertical": false
+  },
+  "rounds": [
+    {
+      "id": "round1",
+      "name": "化学式①",
+      "shuffle": true,
+      "questions": [
+        {
+          "id": "r1q001",
+          "question": "水酸化ナトリウム",
+          "answer": "NaOH"
+        },
+        {
+          "id": "r1q002",
+          "question": "水酸化カリウム",
+          "answer": "KOH"
+        },
+        {
+          "id": "r1q003",
+          "question": "水酸化マグネシウム",
+          "answer": "Mg(OH)2"
+        },
+        {
+          "id": "r1q004",
+          "question": "水酸化カルシウム",
+          "answer": "Ca(OH)2"
+        },
+        {
+          "id": "r1q005",
+          "question": "水酸化バリウム",
+          "answer": "Ba(OH)2"
+        },
+        {
+          "id": "r1q006",
+          "question": "水酸化銅(II)",
+          "answer": "Cu(OH)2"
+        },
+        {
+          "id": "r1q007",
+          "question": "水酸化鉄(II)",
+          "answer": "Fe(OH)2"
+        },
+        {
+          "id": "r1q008",
+          "question": "水酸化亜鉛",
+          "answer": "Zn(OH)2"
+        },
+        {
+          "id": "r1q009",
+          "question": "水酸化鉄(III)",
+          "answer": "Fe(OH)3"
+        },
+        {
+          "id": "r1q010",
+          "question": "水酸化アルミニウム",
+          "answer": "Al(OH)3"
+        },
+        {
+          "id": "r1q011",
+          "question": "硝酸ナトリウム",
+          "answer": "NaNO3"
+        },
+        {
+          "id": "r1q012",
+          "question": "硝酸アンモニウム",
+          "answer": "NH4NO3"
+        },
+        {
+          "id": "r1q013",
+          "question": "硝酸カリウム",
+          "answer": "KNO3"
+        },
+        {
+          "id": "r1q014",
+          "question": "硝酸銀",
+          "answer": "AgNO3"
+        },
+        {
+          "id": "r1q015",
+          "question": "硝酸マグネシウム",
+          "answer": "Mg(NO3)2"
+        },
+        {
+          "id": "r1q016",
+          "question": "硝酸カルシウム",
+          "answer": "Ca(NO3)2"
+        },
+        {
+          "id": "r1q017",
+          "question": "硝酸バリウム",
+          "answer": "Ba(NO3)2"
+        },
+        {
+          "id": "r1q018",
+          "question": "硝酸銅(II)",
+          "answer": "Cu(NO3)2"
+        },
+        {
+          "id": "r1q019",
+          "question": "硝酸鉄(II)",
+          "answer": "Fe(NO3)2"
+        },
+        {
+          "id": "r1q020",
+          "question": "硝酸亜鉛",
+          "answer": "Zn(NO3)2"
+        },
+        {
+          "id": "r1q021",
+          "question": "硝酸鉄(III)",
+          "answer": "Fe(NO3)3"
+        },
+        {
+          "id": "r1q022",
+          "question": "硝酸アルミニウム",
+          "answer": "Al(NO3)3"
+        },
+        {
+          "id": "r1q023",
+          "question": "塩化ナトリウム",
+          "answer": "NaCl"
+        },
+        {
+          "id": "r1q024",
+          "question": "塩化アンモニウム",
+          "answer": "NH4Cl"
+        },
+        {
+          "id": "r1q025",
+          "question": "塩化カリウム",
+          "answer": "KCl"
+        },
+        {
+          "id": "r1q026",
+          "question": "塩化銀",
+          "answer": "AgCl"
+        },
+        {
+          "id": "r1q027",
+          "question": "塩化マグネシウム",
+          "answer": "MgCl2"
+        },
+        {
+          "id": "r1q028",
+          "question": "塩化カルシウム",
+          "answer": "CaCl2"
+        },
+        {
+          "id": "r1q029",
+          "question": "塩化バリウム",
+          "answer": "BaCl2"
+        },
+        {
+          "id": "r1q030",
+          "question": "塩化銅(II)",
+          "answer": "CuCl2"
+        },
+        {
+          "id": "r1q031",
+          "question": "塩化鉄(II)",
+          "answer": "FeCl2"
+        },
+        {
+          "id": "r1q032",
+          "question": "塩化亜鉛",
+          "answer": "ZnCl2"
+        },
+        {
+          "id": "r1q033",
+          "question": "塩化鉄(III)",
+          "answer": "FeCl3"
+        },
+        {
+          "id": "r1q034",
+          "question": "塩化アルミニウム",
+          "answer": "AlCl3"
+        },
+        {
+          "id": "r1q035",
+          "question": "塩化ベリリウム",
+          "answer": "BeCl2"
+        },
+        {
+          "id": "r1q036",
+          "question": "炭酸水素ナトリウム",
+          "answer": "NaHCO3"
+        },
+        {
+          "id": "r1q037",
+          "question": "炭酸水素マグネシウム",
+          "answer": "Mg(HCO3)2"
+        },
+        {
+          "id": "r1q038",
+          "question": "炭酸水素アルミニウム",
+          "answer": "Al(HCO3)3"
+        },
+        {
+          "id": "r1q039",
+          "question": "フッ化マグネシウム",
+          "answer": "MgF2"
+        },
+        {
+          "id": "r1q040",
+          "question": "フッ化カルシウム",
+          "answer": "CaF2"
+        },
+        {
+          "id": "r1q041",
+          "question": "フッ化鉄(III)",
+          "answer": "FeF3"
+        },
+        {
+          "id": "r1q042",
+          "question": "ヨウ化銀",
+          "answer": "AgI"
+        },
+        {
+          "id": "r1q043",
+          "question": "ヨウ化バリウム",
+          "answer": "BaI2"
+        },
+        {
+          "id": "r1q044",
+          "question": "ヨウ化アルミニウム",
+          "answer": "AlI3"
+        },
+        {
+          "id": "r1q045",
+          "question": "臭化鉄(II)",
+          "answer": "FeBr2"
+        },
+        {
+          "id": "r1q046",
+          "question": "臭化亜鉛",
+          "answer": "ZnBr2"
+        }
+      ]
+    },
+    {
+      "id": "round2",
+      "name": "化学式②",
+      "shuffle": true,
+      "questions": [
+        {
+          "id": "r2q001",
+          "question": "酸化ナトリウム",
+          "answer": "Na2O"
+        },
+        {
+          "id": "r2q002",
+          "question": "酸化カリウム",
+          "answer": "K2O"
+        },
+        {
+          "id": "r2q003",
+          "question": "酸化銀",
+          "answer": "Ag2O"
+        },
+        {
+          "id": "r2q004",
+          "question": "酸化マグネシウム",
+          "answer": "MgO"
+        },
+        {
+          "id": "r2q005",
+          "question": "酸化カルシウム",
+          "answer": "CaO"
+        },
+        {
+          "id": "r2q006",
+          "question": "酸化バリウム",
+          "answer": "BaO"
+        },
+        {
+          "id": "r2q007",
+          "question": "酸化銅(II)",
+          "answer": "CuO"
+        },
+        {
+          "id": "r2q008",
+          "question": "酸化鉄(II)",
+          "answer": "FeO"
+        },
+        {
+          "id": "r2q009",
+          "question": "酸化亜鉛",
+          "answer": "ZnO"
+        },
+        {
+          "id": "r2q010",
+          "question": "酸化鉄(III)",
+          "answer": "Fe2O3"
+        },
+        {
+          "id": "r2q011",
+          "question": "酸化アルミニウム",
+          "answer": "Al2O3"
+        },
+        {
+          "id": "r2q012",
+          "question": "硫化ナトリウム",
+          "answer": "Na2S"
+        },
+        {
+          "id": "r2q013",
+          "question": "硫化カリウム",
+          "answer": "K2S"
+        },
+        {
+          "id": "r2q014",
+          "question": "硫化銀",
+          "answer": "Ag2S"
+        },
+        {
+          "id": "r2q015",
+          "question": "硫化マグネシウム",
+          "answer": "MgS"
+        },
+        {
+          "id": "r2q016",
+          "question": "硫化カルシウム",
+          "answer": "CaS"
+        },
+        {
+          "id": "r2q017",
+          "question": "硫化バリウム",
+          "answer": "BaS"
+        },
+        {
+          "id": "r2q018",
+          "question": "硫化銅(II)",
+          "answer": "CuS"
+        },
+        {
+          "id": "r2q019",
+          "question": "硫化鉄(II)",
+          "answer": "FeS"
+        },
+        {
+          "id": "r2q020",
+          "question": "硫化亜鉛",
+          "answer": "ZnS"
+        },
+        {
+          "id": "r2q021",
+          "question": "硫化鉄(III)",
+          "answer": "Fe2S3"
+        },
+        {
+          "id": "r2q022",
+          "question": "硫化アルミニウム",
+          "answer": "Al2S3"
+        },
+        {
+          "id": "r2q023",
+          "question": "硫酸ナトリウム",
+          "answer": "Na2SO4"
+        },
+        {
+          "id": "r2q024",
+          "question": "硫酸アンモニウム",
+          "answer": "(NH4)2SO4"
+        },
+        {
+          "id": "r2q025",
+          "question": "硫酸カリウム",
+          "answer": "K2SO4"
+        },
+        {
+          "id": "r2q026",
+          "question": "硫酸銀",
+          "answer": "Ag2SO4"
+        },
+        {
+          "id": "r2q027",
+          "question": "硫酸",
+          "answer": "H2SO4"
+        },
+        {
+          "id": "r2q028",
+          "question": "硫酸マグネシウム",
+          "answer": "MgSO4"
+        },
+        {
+          "id": "r2q029",
+          "question": "硫酸カルシウム",
+          "answer": "CaSO4"
+        },
+        {
+          "id": "r2q030",
+          "question": "硫酸バリウム",
+          "answer": "BaSO4"
+        },
+        {
+          "id": "r2q031",
+          "question": "硫酸銅(II)",
+          "answer": "CuSO4"
+        },
+        {
+          "id": "r2q032",
+          "question": "硫酸鉄(II)",
+          "answer": "FeSO4"
+        },
+        {
+          "id": "r2q033",
+          "question": "硫酸亜鉛",
+          "answer": "ZnSO4"
+        },
+        {
+          "id": "r2q034",
+          "question": "硫酸鉄(III)",
+          "answer": "Fe2(SO4)3"
+        },
+        {
+          "id": "r2q035",
+          "question": "硫酸アルミニウム",
+          "answer": "Al2(SO4)3"
+        },
+        {
+          "id": "r2q036",
+          "question": "炭酸ナトリウム",
+          "answer": "Na2CO3"
+        },
+        {
+          "id": "r2q037",
+          "question": "炭酸アンモニウム",
+          "answer": "(NH4)2CO3"
+        },
+        {
+          "id": "r2q038",
+          "question": "炭酸カリウム",
+          "answer": "K2CO3"
+        },
+        {
+          "id": "r2q039",
+          "question": "炭酸銀",
+          "answer": "Ag2CO3"
+        },
+        {
+          "id": "r2q040",
+          "question": "炭酸マグネシウム",
+          "answer": "MgCO3"
+        },
+        {
+          "id": "r2q041",
+          "question": "炭酸カルシウム",
+          "answer": "CaCO3"
+        },
+        {
+          "id": "r2q042",
+          "question": "炭酸バリウム",
+          "answer": "BaCO3"
+        },
+        {
+          "id": "r2q043",
+          "question": "炭酸銅(II)",
+          "answer": "CuCO3"
+        },
+        {
+          "id": "r2q044",
+          "question": "炭酸亜鉛",
+          "answer": "ZnCO3"
+        },
+        {
+          "id": "r2q045",
+          "question": "炭酸鉄(III)",
+          "answer": "Fe2(CO3)3"
+        },
+        {
+          "id": "r2q046",
+          "question": "炭酸アルミニウム",
+          "answer": "Al2(CO3)3"
+        }
+      ]
+    },
+    {
+      "id": "round3",
+      "name": "化学反応式",
+      "shuffle": true,
+      "questions": [
+        {
+          "id": "r3q001",
+          "question": "メタンを完全燃焼させる",
+          "answer": "CH4 + 2O2 → CO2 + 2H2O\n解説：燃焼反応。メタンは酸素と反応して、二酸化炭素と水を生じる。"
+        },
+        {
+          "id": "r3q002",
+          "question": "炭酸カルシウムに塩酸を加える",
+          "answer": "CaCO3 + 2HCl → CaCl2 + H2O + CO2\n解説：酸と炭酸塩の反応。塩化カルシウム、水、二酸化炭素ができる。"
+        },
+        {
+          "id": "r3q003",
+          "question": "炭酸カルシウムを加熱する",
+          "answer": "CaCO3 → CaO + CO2\n解説：熱分解。炭酸カルシウムは酸化カルシウムと二酸化炭素に分かれる。"
+        },
+        {
+          "id": "r3q004",
+          "question": "炭酸水素ナトリウムに塩酸を加える",
+          "answer": "NaHCO3 + HCl → NaCl + H2O + CO2\n解説：酸と炭酸水素塩の反応。塩化ナトリウム、水、二酸化炭素ができる。"
+        },
+        {
+          "id": "r3q005",
+          "question": "炭酸水素ナトリウムを加熱する",
+          "answer": "2NaHCO3 → Na2CO3 + H2O + CO2\n解説：熱分解。炭酸ナトリウム、水、二酸化炭素ができる。"
+        },
+        {
+          "id": "r3q006",
+          "question": "コークスを燃焼させる",
+          "answer": "C + O2 → CO2\n解説：コークスの主成分を炭素として扱う。燃焼すると二酸化炭素ができる。"
+        },
+        {
+          "id": "r3q007",
+          "question": "水素と酸素を混合して点火する",
+          "answer": "2H2 + O2 → 2H2O\n解説：水素の燃焼。水ができる。"
+        },
+        {
+          "id": "r3q008",
+          "question": "マグネシウムを空気中で燃やす",
+          "answer": "2Mg + O2 → 2MgO\n解説：燃焼して酸化マグネシウムができる。"
+        },
+        {
+          "id": "r3q009",
+          "question": "アルミニウムを空気中で燃やす",
+          "answer": "4Al + 3O2 → 2Al2O3\n解説：燃焼して酸化アルミニウムができる。"
+        },
+        {
+          "id": "r3q010",
+          "question": "硫黄を空気中で燃やす",
+          "answer": "S + O2 → SO2\n解説：燃焼して二酸化硫黄ができる。"
+        },
+        {
+          "id": "r3q011",
+          "question": "亜鉛に塩酸を加える",
+          "answer": "Zn + 2HCl → ZnCl2 + H2\n解説：金属と酸の反応。塩化亜鉛と水素ができる。"
+        },
+        {
+          "id": "r3q012",
+          "question": "亜鉛に希硫酸を加える",
+          "answer": "Zn + H2SO4 → ZnSO4 + H2\n解説：金属と酸の反応。硫酸亜鉛と水素ができる。"
+        },
+        {
+          "id": "r3q013",
+          "question": "鉄に塩酸を加える",
+          "answer": "Fe + 2HCl → FeCl2 + H2\n解説：金属と酸の反応。塩化鉄(II)と水素ができる。"
+        },
+        {
+          "id": "r3q014",
+          "question": "鉄に希硫酸を加える",
+          "answer": "Fe + H2SO4 → FeSO4 + H2\n解説：金属と酸の反応。硫酸鉄(II)と水素ができる。"
+        },
+        {
+          "id": "r3q015",
+          "question": "二酸化炭素を石灰水に通じる",
+          "answer": "Ca(OH)2 + CO2 → CaCO3 + H2O\n解説：石灰水が白くにごる反応。炭酸カルシウムと水ができる。"
+        },
+        {
+          "id": "r3q016",
+          "question": "マグネシウムを二酸化炭素中で燃やす",
+          "answer": "2Mg + CO2 → 2MgO + C\n解説：マグネシウムは二酸化炭素から酸素をうばい、酸化マグネシウムと炭素ができる。"
+        },
+        {
+          "id": "r3q017",
+          "question": "食塩水を電気分解する",
+          "answer": "2NaCl + 2H2O → 2NaOH + H2 + Cl2\n解説：塩素、水素、水酸化ナトリウムが生じる。"
+        },
+        {
+          "id": "r3q018",
+          "question": "濃塩酸に二酸化マンガン（酸化マンガンIV）を加え加熱する",
+          "answer": "MnO2 + 4HCl → MnCl2 + 2H2O + Cl2\n解説：塩素の製法。塩化マンガン(II)、水、塩素ができる。"
+        },
+        {
+          "id": "r3q019",
+          "question": "次亜塩素酸ナトリウムに塩酸を加える",
+          "answer": "NaClO + 2HCl → NaCl + H2O + Cl2\n解説：塩素が発生する反応。塩化ナトリウム、水、塩素ができる。"
+        },
+        {
+          "id": "r3q020",
+          "question": "塩化アンモニウムに水酸化ナトリウムを加えて加熱する",
+          "answer": "NH4Cl + NaOH → NH3 + H2O + NaCl\n解説：アンモニアの発生。アンモニア、水、塩化ナトリウムができる。"
+        },
+        {
+          "id": "r3q021",
+          "question": "窒素と水素から直接合成する",
+          "answer": "N2 + 3H2 → 2NH3\n解説：アンモニアの合成。窒素と水素からアンモニアができる。"
+        },
+        {
+          "id": "r3q022",
+          "question": "亜硝酸アンモニウムを加熱する",
+          "answer": "NH4NO2 → N2 + 2H2O\n解説：加熱により窒素と水ができる。"
+        },
+        {
+          "id": "r3q023",
+          "question": "塩化ナトリウムに濃硫酸を加えて加熱する",
+          "answer": "NaCl + H2SO4 → NaHSO4 + HCl\n解説：塩化水素の発生。硫酸水素ナトリウムと塩化水素ができる。"
+        },
+        {
+          "id": "r3q024",
+          "question": "硫化鉄(II)に希塩酸を加える",
+          "answer": "FeS + 2HCl → FeCl2 + H2S\n解説：硫化水素の発生。塩化鉄(II)と硫化水素ができる。"
+        },
+        {
+          "id": "r3q025",
+          "question": "硫化鉄(II)に希硫酸を加える",
+          "answer": "FeS + H2SO4 → FeSO4 + H2S\n解説：硫化水素の発生。硫酸鉄(II)と硫化水素ができる。"
+        }
+      ]
+    }
+  ]
+}
