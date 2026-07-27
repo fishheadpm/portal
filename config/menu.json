@@ -8,7 +8,7 @@
         {
           "id": "ancient_auxiliary",
           "title": "古文助動詞",
-          "type": "external",
+          "type": "common",
           "data": "data/kobun_jodoushi.json"
         },
         {
