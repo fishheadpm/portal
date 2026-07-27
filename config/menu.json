@@ -18,16 +18,16 @@
           "data": "data/kobun_joshi.json"
         },
         {
-          "id": "difficult_words",
-          "title": "難読語",
-          "type": "external",
-          "url": "https://fishheadpm.github.io/dwords/"
-        },
-        {
           "id": "kanbun",
           "title": "漢文文法",
           "type": "common",
           "data": "data/kanbun_bunpou.json"
+        },
+        {
+          "id": "difficult_words",
+          "title": "難読語",
+          "type": "external",
+          "url": "https://fishheadpm.github.io/dwords/"
         },
         {
           "id": "kanji",
