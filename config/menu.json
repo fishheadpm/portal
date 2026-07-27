@@ -9,7 +9,7 @@
           "id": "ancient_auxiliary",
           "title": "古文助動詞",
           "type": "external",
-          "url": "https://fishheadpm.github.io/-ancient-cpp/"
+          "data": "data/kobun_jodoushi.json"
         },
         {
           "id": "kobun",
