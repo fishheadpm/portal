@@ -1,0 +1,1635 @@
+{
+  "schemaVersion": 1,
+  "app": {
+    "id": "english_words",
+    "title": "英単語",
+    "description": "日本語を見て英単語・英熟語を答える",
+    "vertical": false
+  },
+  "rounds": [
+    {
+      "id": "round7",
+      "name": "第7回",
+      "shuffle": true,
+      "questions": [
+        {
+          "id": "r7q001",
+          "question": "~を切り取る、切り離す【2語】",
+          "answer": "cut off ~"
+        },
+        {
+          "id": "r7q002",
+          "question": "~することができる【3語】",
+          "answer": "be able to V"
+        },
+        {
+          "id": "r7q003",
+          "question": "~に連絡をとる",
+          "answer": "contact ~"
+        },
+        {
+          "id": "r7q004",
+          "question": "下に（の）↔︎ 上に（の）",
+          "answer": "below ↔ above"
+        },
+        {
+          "id": "r7q005",
+          "question": "~を投稿する",
+          "answer": "post ~"
+        },
+        {
+          "id": "r7q006",
+          "question": "今夜(は)",
+          "answer": "tonight"
+        },
+        {
+          "id": "r7q007",
+          "question": "ふるまい 行儀",
+          "answer": "behavior"
+        },
+        {
+          "id": "r7q008",
+          "question": "装置",
+          "answer": "device"
+        },
+        {
+          "id": "r7q009",
+          "question": "交流",
+          "answer": "interaction"
+        },
+        {
+          "id": "r7q010",
+          "question": "約束(する)",
+          "answer": "promise"
+        },
+        {
+          "id": "r7q011",
+          "question": "～に気が付いて【3語】",
+          "answer": "be aware of ~"
+        },
+        {
+          "id": "r7q012",
+          "question": "～に苦戦する【2語】",
+          "answer": "struggle with ~"
+        },
+        {
+          "id": "r7q013",
+          "question": "容易に【副詞】",
+          "answer": "easily"
+        },
+        {
+          "id": "r7q014",
+          "question": "～に気づく【動詞】",
+          "answer": "notice ~"
+        },
+        {
+          "id": "r7q015",
+          "question": "～の問題を抱える【4語】",
+          "answer": "have a problem with ~"
+        },
+        {
+          "id": "r7q016",
+          "question": "鶏肉 ニワトリ",
+          "answer": "chicken"
+        },
+        {
+          "id": "r7q017",
+          "question": "心配しないで。【2語・文】",
+          "answer": "Don't worry."
+        },
+        {
+          "id": "r7q018",
+          "question": "～を扱う",
+          "answer": "treat ~"
+        },
+        {
+          "id": "r7q019",
+          "question": "資源",
+          "answer": "resource"
+        },
+        {
+          "id": "r7q020",
+          "question": "～のように見える(s-)",
+          "answer": "seem ~"
+        },
+        {
+          "id": "r7q021",
+          "question": "不公平な",
+          "answer": "unfair"
+        },
+        {
+          "id": "r7q022",
+          "question": "公平な【形容詞】-公平【名詞】",
+          "answer": "fair - fairness"
+        },
+        {
+          "id": "r7q023",
+          "question": "平等な【形容詞】-平等に【副詞】",
+          "answer": "equal - equally"
+        },
+        {
+          "id": "r7q024",
+          "question": "～を分配する",
+          "answer": "distribute ~"
+        },
+        {
+          "id": "r7q025",
+          "question": "おそらく たぶん",
+          "answer": "probably"
+        },
+        {
+          "id": "r7q026",
+          "question": "機会(o-)",
+          "answer": "opportunity"
+        },
+        {
+          "id": "r7q027",
+          "question": "結果",
+          "answer": "result"
+        },
+        {
+          "id": "r7q028",
+          "question": "真ん中",
+          "answer": "middle"
+        },
+        {
+          "id": "r7q029",
+          "question": "～を認識する",
+          "answer": "recognize ~"
+        },
+        {
+          "id": "r7q030",
+          "question": "～を成し遂げる 達成する 得る",
+          "answer": "achieve"
+        },
+        {
+          "id": "r7q031",
+          "question": "～に敬意を表す",
+          "answer": "honor~"
+        },
+        {
+          "id": "r7q032",
+          "question": "業績、達成、獲得",
+          "answer": "achievement"
+        },
+        {
+          "id": "r7q033",
+          "question": "自由",
+          "answer": "liberty"
+        },
+        {
+          "id": "r7q034",
+          "question": "正義",
+          "answer": "justice"
+        },
+        {
+          "id": "r7q035",
+          "question": "法、法律",
+          "answer": "law"
+        },
+        {
+          "id": "r7q036",
+          "question": "～を統制する",
+          "answer": "control~"
+        },
+        {
+          "id": "r7q037",
+          "question": "～を制限する",
+          "answer": "limit~"
+        },
+        {
+          "id": "r7q038",
+          "question": "公共の",
+          "answer": "public"
+        },
+        {
+          "id": "r7q039",
+          "question": "区域、区切り、部分(s-)",
+          "answer": "section"
+        },
+        {
+          "id": "r7q040",
+          "question": "いっぱいに満ちる【2語】",
+          "answer": "fill up"
+        },
+        {
+          "id": "r7q041",
+          "question": "拒否する、断る",
+          "answer": "refuse"
+        },
+        {
+          "id": "r7q042",
+          "question": "～を逮捕する",
+          "answer": "arrest~"
+        },
+        {
+          "id": "r7q043",
+          "question": "～を動揺させる、だめにする、ひっくり返す",
+          "answer": "upset~"
+        },
+        {
+          "id": "r7q044",
+          "question": "指導者",
+          "answer": "leader"
+        },
+        {
+          "id": "r7q045",
+          "question": "成功",
+          "answer": "success"
+        }
+      ]
+    },
+    {
+      "id": "round6",
+      "name": "第6回",
+      "shuffle": true,
+      "questions": [
+        {
+          "id": "r6q001",
+          "question": "余分の",
+          "answer": "extra"
+        },
+        {
+          "id": "r6q002",
+          "question": "日陰、陰",
+          "answer": "shade"
+        },
+        {
+          "id": "r6q003",
+          "question": "訳す、翻訳する - 翻訳",
+          "answer": "translate - translation"
+        },
+        {
+          "id": "r6q004",
+          "question": "独特な、とても珍しい",
+          "answer": "unique"
+        },
+        {
+          "id": "r6q005",
+          "question": "言い回し、表現",
+          "answer": "phrase"
+        },
+        {
+          "id": "r6q006",
+          "question": "AをBと取りかえる【2語】",
+          "answer": "replace A with B"
+        },
+        {
+          "id": "r6q007",
+          "question": "正確な",
+          "answer": "exact"
+        },
+        {
+          "id": "r6q008",
+          "question": "翻訳者",
+          "answer": "translator"
+        },
+        {
+          "id": "r6q009",
+          "question": "~に対処する【2語】",
+          "answer": "deal with ~"
+        },
+        {
+          "id": "r6q010",
+          "question": "読者",
+          "answer": "reader"
+        },
+        {
+          "id": "r6q011",
+          "question": "~をよく知っている、詳しい【3語】",
+          "answer": "be familiar with ~"
+        },
+        {
+          "id": "r6q012",
+          "question": "~をよく知らない【3語】",
+          "answer": "be unfamiliar with ~"
+        },
+        {
+          "id": "r6q013",
+          "question": "説明する - 説明",
+          "answer": "explain - explanation"
+        },
+        {
+          "id": "r6q014",
+          "question": "十分な",
+          "answer": "enough"
+        },
+        {
+          "id": "r6q015",
+          "question": "~を付け加える",
+          "answer": "add ~"
+        },
+        {
+          "id": "r6q016",
+          "question": "~を切り取る、切り離す【2語】",
+          "answer": "cut off ~"
+        },
+        {
+          "id": "r6q017",
+          "question": "~することができる【3語】",
+          "answer": "be able to V"
+        },
+        {
+          "id": "r6q018",
+          "question": "~に連絡をとる",
+          "answer": "contact ~"
+        },
+        {
+          "id": "r6q019",
+          "question": "下に（の）↔︎ 上に（の）",
+          "answer": "below ↔ above"
+        },
+        {
+          "id": "r6q020",
+          "question": "~を投稿する",
+          "answer": "post ~"
+        },
+        {
+          "id": "r6q021",
+          "question": "今夜(は)",
+          "answer": "tonight"
+        },
+        {
+          "id": "r6q022",
+          "question": "ふるまい 行儀",
+          "answer": "behavior"
+        },
+        {
+          "id": "r6q023",
+          "question": "装置",
+          "answer": "device"
+        },
+        {
+          "id": "r6q024",
+          "question": "交流",
+          "answer": "interaction"
+        },
+        {
+          "id": "r6q025",
+          "question": "約束(する)",
+          "answer": "promise"
+        },
+        {
+          "id": "r6q026",
+          "question": "～に気が付いて【3語】",
+          "answer": "be aware of ~"
+        },
+        {
+          "id": "r6q027",
+          "question": "～に苦戦する【2語】",
+          "answer": "struggle with ~"
+        },
+        {
+          "id": "r6q028",
+          "question": "容易に【副詞】",
+          "answer": "easily"
+        },
+        {
+          "id": "r6q029",
+          "question": "～に気づく【動詞】",
+          "answer": "notice ~"
+        },
+        {
+          "id": "r6q030",
+          "question": "～の問題を抱える【4語】",
+          "answer": "have a problem with ~"
+        },
+        {
+          "id": "r6q031",
+          "question": "鶏肉 ニワトリ",
+          "answer": "chicken"
+        },
+        {
+          "id": "r6q032",
+          "question": "心配しないで。【2語・文】",
+          "answer": "Don't worry."
+        },
+        {
+          "id": "r6q033",
+          "question": "～を扱う",
+          "answer": "treat ~"
+        },
+        {
+          "id": "r6q034",
+          "question": "資源",
+          "answer": "resource"
+        },
+        {
+          "id": "r6q035",
+          "question": "～のように見える(s-)",
+          "answer": "seem ~"
+        },
+        {
+          "id": "r6q036",
+          "question": "不公平な",
+          "answer": "unfair"
+        },
+        {
+          "id": "r6q037",
+          "question": "公平な【形容詞】-公平【名詞】",
+          "answer": "fair - fairness"
+        },
+        {
+          "id": "r6q038",
+          "question": "平等な【形容詞】-平等に【副詞】",
+          "answer": "equal - equally"
+        },
+        {
+          "id": "r6q039",
+          "question": "～を分配する",
+          "answer": "distribute ~"
+        },
+        {
+          "id": "r6q040",
+          "question": "おそらく たぶん",
+          "answer": "probably"
+        },
+        {
+          "id": "r6q041",
+          "question": "機会(o-)",
+          "answer": "opportunity"
+        },
+        {
+          "id": "r6q042",
+          "question": "結果",
+          "answer": "result"
+        },
+        {
+          "id": "r6q043",
+          "question": "真ん中",
+          "answer": "middle"
+        },
+        {
+          "id": "r6q044",
+          "question": "～を認識する",
+          "answer": "recognize ~"
+        },
+        {
+          "id": "r6q045",
+          "question": "～を成し遂げる 達成する 得る",
+          "answer": "achieve"
+        }
+      ]
+    },
+    {
+      "id": "round5",
+      "name": "第5回",
+      "shuffle": true,
+      "questions": [
+        {
+          "id": "r5q001",
+          "question": "便利な",
+          "answer": "convenient"
+        },
+        {
+          "id": "r5q002",
+          "question": "ショックを受けた",
+          "answer": "shocked"
+        },
+        {
+          "id": "r5q003",
+          "question": "驚いた",
+          "answer": "surprised"
+        },
+        {
+          "id": "r5q004",
+          "question": "BよりもAを好む【2語】",
+          "answer": "prefer A to B"
+        },
+        {
+          "id": "r5q005",
+          "question": "最初の、独創的な",
+          "answer": "original"
+        },
+        {
+          "id": "r5q006",
+          "question": "～次第である【2語】",
+          "answer": "depend on ~"
+        },
+        {
+          "id": "r5q007",
+          "question": "印象的な",
+          "answer": "impressive"
+        },
+        {
+          "id": "r5q008",
+          "question": "いちばん下の所、底",
+          "answer": "bottom"
+        },
+        {
+          "id": "r5q009",
+          "question": "～に集中する【2語】(c-)",
+          "answer": "concentrate on ~"
+        },
+        {
+          "id": "r5q010",
+          "question": "快適な",
+          "answer": "comfortable"
+        },
+        {
+          "id": "r5q011",
+          "question": "個人的には",
+          "answer": "personally"
+        },
+        {
+          "id": "r5q012",
+          "question": "4分の1",
+          "answer": "quarter"
+        },
+        {
+          "id": "r5q013",
+          "question": "必ず～する【3語】",
+          "answer": "be sure to V"
+        },
+        {
+          "id": "r5q014",
+          "question": "顔色が悪い、青ざめた",
+          "answer": "pale"
+        },
+        {
+          "id": "r5q015",
+          "question": "余分の",
+          "answer": "extra"
+        },
+        {
+          "id": "r5q016",
+          "question": "日陰、陰",
+          "answer": "shade"
+        },
+        {
+          "id": "r5q017",
+          "question": "訳す、翻訳する - 翻訳",
+          "answer": "translate - translation"
+        },
+        {
+          "id": "r5q018",
+          "question": "独特な、とても珍しい",
+          "answer": "unique"
+        },
+        {
+          "id": "r5q019",
+          "question": "言い回し、表現",
+          "answer": "phrase"
+        },
+        {
+          "id": "r5q020",
+          "question": "AをBと取りかえる【2語】",
+          "answer": "replace A with B"
+        },
+        {
+          "id": "r5q021",
+          "question": "正確な",
+          "answer": "exact"
+        },
+        {
+          "id": "r5q022",
+          "question": "翻訳者",
+          "answer": "translator"
+        },
+        {
+          "id": "r5q023",
+          "question": "~に対処する【2語】",
+          "answer": "deal with ~"
+        },
+        {
+          "id": "r5q024",
+          "question": "読者",
+          "answer": "reader"
+        },
+        {
+          "id": "r5q025",
+          "question": "~をよく知っている、詳しい【3語】",
+          "answer": "be familiar with ~"
+        },
+        {
+          "id": "r5q026",
+          "question": "~をよく知らない【3語】",
+          "answer": "be unfamiliar with ~"
+        },
+        {
+          "id": "r5q027",
+          "question": "説明する - 説明",
+          "answer": "explain - explanation"
+        },
+        {
+          "id": "r5q028",
+          "question": "十分な",
+          "answer": "enough"
+        },
+        {
+          "id": "r5q029",
+          "question": "~を付け加える",
+          "answer": "add ~"
+        },
+        {
+          "id": "r5q030",
+          "question": "~を切り取る、切り離す【2語】",
+          "answer": "cut off ~"
+        },
+        {
+          "id": "r5q031",
+          "question": "~することができる【3語】",
+          "answer": "be able to V"
+        },
+        {
+          "id": "r5q032",
+          "question": "~に連絡をとる",
+          "answer": "contact ~"
+        },
+        {
+          "id": "r5q033",
+          "question": "下に（の）↔︎ 上に（の）",
+          "answer": "below ↔ above"
+        },
+        {
+          "id": "r5q034",
+          "question": "~を投稿する",
+          "answer": "post ~"
+        },
+        {
+          "id": "r5q035",
+          "question": "今夜(は)",
+          "answer": "tonight"
+        },
+        {
+          "id": "r5q036",
+          "question": "ふるまい 行儀",
+          "answer": "behavior"
+        },
+        {
+          "id": "r5q037",
+          "question": "装置",
+          "answer": "device"
+        },
+        {
+          "id": "r5q038",
+          "question": "交流",
+          "answer": "interaction"
+        },
+        {
+          "id": "r5q039",
+          "question": "約束(する)",
+          "answer": "promise"
+        },
+        {
+          "id": "r5q040",
+          "question": "公正な 公平な",
+          "answer": "fair"
+        },
+        {
+          "id": "r5q041",
+          "question": "～に気が付いて【3語】",
+          "answer": "be aware of ~"
+        },
+        {
+          "id": "r5q042",
+          "question": "～に苦戦する【2語】",
+          "answer": "struggle with ~"
+        },
+        {
+          "id": "r5q043",
+          "question": "容易に【副詞】",
+          "answer": "easily"
+        },
+        {
+          "id": "r5q044",
+          "question": "～に気づく【動詞】",
+          "answer": "notice ~"
+        },
+        {
+          "id": "r5q045",
+          "question": "～の問題を抱える【4語】",
+          "answer": "have a problem with ~"
+        }
+      ]
+    },
+    {
+      "id": "round4",
+      "name": "第4回",
+      "shuffle": true,
+      "questions": [
+        {
+          "id": "r4q001",
+          "question": "影響、効果",
+          "answer": "effect"
+        },
+        {
+          "id": "r4q002",
+          "question": "詳細に【2語】",
+          "answer": "in detail"
+        },
+        {
+          "id": "r4q003",
+          "question": "少なくとも【2語】",
+          "answer": "at least"
+        },
+        {
+          "id": "r4q004",
+          "question": "生き残る",
+          "answer": "survive"
+        },
+        {
+          "id": "r4q005",
+          "question": "～を引き起こす",
+          "answer": "cause ~"
+        },
+        {
+          "id": "r4q006",
+          "question": "～を受け取る",
+          "answer": "receive ~"
+        },
+        {
+          "id": "r4q007",
+          "question": "健康",
+          "answer": "health"
+        },
+        {
+          "id": "r4q008",
+          "question": "いい読みだね、惜しい【2語・文】",
+          "answer": "Good guess."
+        },
+        {
+          "id": "r4q009",
+          "question": "劇場、映画館",
+          "answer": "theater"
+        },
+        {
+          "id": "r4q010",
+          "question": "（映画など）～を監督する、演出する - （映画）監督",
+          "answer": "direct - director"
+        },
+        {
+          "id": "r4q011",
+          "question": "サービス",
+          "answer": "service"
+        },
+        {
+          "id": "r4q012",
+          "question": "便利な",
+          "answer": "convenient"
+        },
+        {
+          "id": "r4q013",
+          "question": "ショックを受けた",
+          "answer": "shocked"
+        },
+        {
+          "id": "r4q014",
+          "question": "驚いた",
+          "answer": "surprised"
+        },
+        {
+          "id": "r4q015",
+          "question": "BよりもAを好む【2語】",
+          "answer": "prefer A to B"
+        },
+        {
+          "id": "r4q016",
+          "question": "最初の、独創的な",
+          "answer": "original"
+        },
+        {
+          "id": "r4q017",
+          "question": "～次第である【2語】",
+          "answer": "depend on ~"
+        },
+        {
+          "id": "r4q018",
+          "question": "印象的な",
+          "answer": "impressive"
+        },
+        {
+          "id": "r4q019",
+          "question": "いちばん下の所、底",
+          "answer": "bottom"
+        },
+        {
+          "id": "r4q020",
+          "question": "～に集中する【2語】(c-)",
+          "answer": "concentrate on ~"
+        },
+        {
+          "id": "r4q021",
+          "question": "快適な",
+          "answer": "comfortable"
+        },
+        {
+          "id": "r4q022",
+          "question": "個人的には",
+          "answer": "personally"
+        },
+        {
+          "id": "r4q023",
+          "question": "4分の1",
+          "answer": "quarter"
+        },
+        {
+          "id": "r4q024",
+          "question": "必ず～する【3語】",
+          "answer": "be sure to V"
+        },
+        {
+          "id": "r4q025",
+          "question": "顔色が悪い、青ざめた",
+          "answer": "pale"
+        },
+        {
+          "id": "r4q026",
+          "question": "余分の",
+          "answer": "extra"
+        },
+        {
+          "id": "r4q027",
+          "question": "日陰、陰",
+          "answer": "shade"
+        },
+        {
+          "id": "r4q028",
+          "question": "訳す、翻訳する - 翻訳",
+          "answer": "translate - translation"
+        },
+        {
+          "id": "r4q029",
+          "question": "独特な、とても珍しい",
+          "answer": "unique"
+        },
+        {
+          "id": "r4q030",
+          "question": "言い回し、表現",
+          "answer": "phrase"
+        },
+        {
+          "id": "r4q031",
+          "question": "AをBと取りかえる【2語】",
+          "answer": "replace A with B"
+        },
+        {
+          "id": "r4q032",
+          "question": "正確な",
+          "answer": "exact"
+        },
+        {
+          "id": "r4q033",
+          "question": "翻訳者",
+          "answer": "translator"
+        },
+        {
+          "id": "r4q034",
+          "question": "~に対処する【2語】",
+          "answer": "deal with ~"
+        },
+        {
+          "id": "r4q035",
+          "question": "読者",
+          "answer": "reader"
+        },
+        {
+          "id": "r4q036",
+          "question": "~をよく知っている、詳しい【3語】",
+          "answer": "be familiar with ~"
+        },
+        {
+          "id": "r4q037",
+          "question": "~をよく知らない【3語】",
+          "answer": "be unfamiliar with ~"
+        },
+        {
+          "id": "r4q038",
+          "question": "説明する - 説明",
+          "answer": "explain - explanation"
+        },
+        {
+          "id": "r4q039",
+          "question": "十分な",
+          "answer": "enough"
+        },
+        {
+          "id": "r4q040",
+          "question": "~を付け加える",
+          "answer": "add ~"
+        },
+        {
+          "id": "r4q041",
+          "question": "~を切り取る、切り離す【2語】",
+          "answer": "cut off ~"
+        },
+        {
+          "id": "r4q042",
+          "question": "~することができる【3語】",
+          "answer": "be able to V"
+        },
+        {
+          "id": "r4q043",
+          "question": "~に連絡をとる",
+          "answer": "contact ~"
+        },
+        {
+          "id": "r4q044",
+          "question": "下に（の）↔︎ 上に（の）",
+          "answer": "below ↔ above"
+        },
+        {
+          "id": "r4q045",
+          "question": "~を投稿する",
+          "answer": "post ~"
+        }
+      ]
+    },
+    {
+      "id": "round3",
+      "name": "第3回",
+      "shuffle": true,
+      "questions": [
+        {
+          "id": "r3q001",
+          "question": "ほんとうの、真実の、真の",
+          "answer": "true"
+        },
+        {
+          "id": "r3q002",
+          "question": "AにBを思い起こさせる【2語】",
+          "answer": "remind A of B"
+        },
+        {
+          "id": "r3q003",
+          "question": "タイトル",
+          "answer": "title"
+        },
+        {
+          "id": "r3q004",
+          "question": "不可能な",
+          "answer": "impossible"
+        },
+        {
+          "id": "r3q005",
+          "question": "複雑な",
+          "answer": "complex"
+        },
+        {
+          "id": "r3q006",
+          "question": "人",
+          "answer": "person"
+        },
+        {
+          "id": "r3q007",
+          "question": "対照的に【2語】",
+          "answer": "in contrast"
+        },
+        {
+          "id": "r3q008",
+          "question": "～を恐れて【3語】",
+          "answer": "be afraid of"
+        },
+        {
+          "id": "r3q009",
+          "question": "情報",
+          "answer": "information"
+        },
+        {
+          "id": "r3q010",
+          "question": "残る、ままでいる",
+          "answer": "remain"
+        },
+        {
+          "id": "r3q011",
+          "question": "展示されて【2語】",
+          "answer": "on display"
+        },
+        {
+          "id": "r3q012",
+          "question": "感情",
+          "answer": "feeling"
+        },
+        {
+          "id": "r3q013",
+          "question": "～に苦しむ【2語】",
+          "answer": "suffer from ~"
+        },
+        {
+          "id": "r3q014",
+          "question": "影響、効果",
+          "answer": "effect"
+        },
+        {
+          "id": "r3q015",
+          "question": "詳細に【2語】",
+          "answer": "in detail"
+        },
+        {
+          "id": "r3q016",
+          "question": "少なくとも【2語】",
+          "answer": "at least"
+        },
+        {
+          "id": "r3q017",
+          "question": "生き残る",
+          "answer": "survive"
+        },
+        {
+          "id": "r3q018",
+          "question": "～を引き起こす",
+          "answer": "cause ~"
+        },
+        {
+          "id": "r3q019",
+          "question": "～を受け取る",
+          "answer": "receive ~"
+        },
+        {
+          "id": "r3q020",
+          "question": "健康",
+          "answer": "health"
+        },
+        {
+          "id": "r3q021",
+          "question": "いい読みだね、惜しい【2語・文】",
+          "answer": "Good guess."
+        },
+        {
+          "id": "r3q022",
+          "question": "劇場、映画館",
+          "answer": "theater"
+        },
+        {
+          "id": "r3q023",
+          "question": "（映画など）～を監督する、演出する - （映画）監督",
+          "answer": "direct - director"
+        },
+        {
+          "id": "r3q024",
+          "question": "サービス",
+          "answer": "service"
+        },
+        {
+          "id": "r3q025",
+          "question": "便利な",
+          "answer": "convenient"
+        },
+        {
+          "id": "r3q026",
+          "question": "ショックを受けた",
+          "answer": "shocked"
+        },
+        {
+          "id": "r3q027",
+          "question": "驚いた",
+          "answer": "surprised"
+        },
+        {
+          "id": "r3q028",
+          "question": "BよりもAを好む【2語】",
+          "answer": "prefer A to B"
+        },
+        {
+          "id": "r3q029",
+          "question": "最初の、独創的な",
+          "answer": "original"
+        },
+        {
+          "id": "r3q030",
+          "question": "～次第である【2語】",
+          "answer": "depend on ~"
+        },
+        {
+          "id": "r3q031",
+          "question": "印象的な",
+          "answer": "impressive"
+        },
+        {
+          "id": "r3q032",
+          "question": "いちばん下の所、底",
+          "answer": "bottom"
+        },
+        {
+          "id": "r3q033",
+          "question": "～に集中する【2語】(c-)",
+          "answer": "concentrate on ~"
+        },
+        {
+          "id": "r3q034",
+          "question": "快適な",
+          "answer": "comfortable"
+        },
+        {
+          "id": "r3q035",
+          "question": "個人的には",
+          "answer": "personally"
+        },
+        {
+          "id": "r3q036",
+          "question": "4分の1",
+          "answer": "quarter"
+        },
+        {
+          "id": "r3q037",
+          "question": "必ず～する【3語】",
+          "answer": "be sure to V"
+        },
+        {
+          "id": "r3q038",
+          "question": "顔色が悪い、青ざめた",
+          "answer": "pale"
+        },
+        {
+          "id": "r3q039",
+          "question": "余分の",
+          "answer": "extra"
+        },
+        {
+          "id": "r3q040",
+          "question": "日陰、陰",
+          "answer": "shade"
+        },
+        {
+          "id": "r3q041",
+          "question": "訳す、翻訳する - 翻訳",
+          "answer": "translate - translation"
+        },
+        {
+          "id": "r3q042",
+          "question": "独特な、とても珍しい",
+          "answer": "unique"
+        },
+        {
+          "id": "r3q043",
+          "question": "言い回し、表現",
+          "answer": "phrase"
+        },
+        {
+          "id": "r3q044",
+          "question": "AをBと取りかえる【2語】",
+          "answer": "replace A with B"
+        },
+        {
+          "id": "r3q045",
+          "question": "正確な",
+          "answer": "exact"
+        }
+      ]
+    },
+    {
+      "id": "round2",
+      "name": "第2回",
+      "shuffle": true,
+      "questions": [
+        {
+          "id": "r2q001",
+          "question": "力",
+          "answer": "power"
+        },
+        {
+          "id": "r2q002",
+          "question": "～を話し合う、検討する",
+          "answer": "discuss ~"
+        },
+        {
+          "id": "r2q003",
+          "question": "アルバム",
+          "answer": "album"
+        },
+        {
+          "id": "r2q004",
+          "question": "中古の",
+          "answer": "used"
+        },
+        {
+          "id": "r2q005",
+          "question": "聴衆",
+          "answer": "audience"
+        },
+        {
+          "id": "r2q006",
+          "question": "～をよく考える、考慮に入れる",
+          "answer": "consider ~"
+        },
+        {
+          "id": "r2q007",
+          "question": "最近(l-)",
+          "answer": "lately"
+        },
+        {
+          "id": "r2q008",
+          "question": "友情",
+          "answer": "friendship"
+        },
+        {
+          "id": "r2q009",
+          "question": "歌詞",
+          "answer": "lyric"
+        },
+        {
+          "id": "r2q010",
+          "question": "ひとりで、孤独で",
+          "answer": "alone"
+        },
+        {
+          "id": "r2q011",
+          "question": "ほんとうの、真実の、真の",
+          "answer": "true"
+        },
+        {
+          "id": "r2q012",
+          "question": "AにBを思い起こさせる【2語】",
+          "answer": "remind A of B"
+        },
+        {
+          "id": "r2q013",
+          "question": "タイトル",
+          "answer": "title"
+        },
+        {
+          "id": "r2q014",
+          "question": "不可能な",
+          "answer": "impossible"
+        },
+        {
+          "id": "r2q015",
+          "question": "複雑な",
+          "answer": "complex"
+        },
+        {
+          "id": "r2q016",
+          "question": "人",
+          "answer": "person"
+        },
+        {
+          "id": "r2q017",
+          "question": "対照的に【2語】",
+          "answer": "in contrast"
+        },
+        {
+          "id": "r2q018",
+          "question": "～を恐れて【3語】",
+          "answer": "be afraid of"
+        },
+        {
+          "id": "r2q019",
+          "question": "情報",
+          "answer": "information"
+        },
+        {
+          "id": "r2q020",
+          "question": "残る、ままでいる",
+          "answer": "remain"
+        },
+        {
+          "id": "r2q021",
+          "question": "展示されて【2語】",
+          "answer": "on display"
+        },
+        {
+          "id": "r2q022",
+          "question": "感情",
+          "answer": "feeling"
+        },
+        {
+          "id": "r2q023",
+          "question": "～に苦しむ【2語】",
+          "answer": "suffer from ~"
+        },
+        {
+          "id": "r2q024",
+          "question": "影響、効果",
+          "answer": "effect"
+        },
+        {
+          "id": "r2q025",
+          "question": "詳細に【2語】",
+          "answer": "in detail"
+        },
+        {
+          "id": "r2q026",
+          "question": "少なくとも【2語】",
+          "answer": "at least"
+        },
+        {
+          "id": "r2q027",
+          "question": "生き残る",
+          "answer": "survive"
+        },
+        {
+          "id": "r2q028",
+          "question": "～を引き起こす",
+          "answer": "cause ~"
+        },
+        {
+          "id": "r2q029",
+          "question": "～を受け取る",
+          "answer": "receive ~"
+        },
+        {
+          "id": "r2q030",
+          "question": "健康",
+          "answer": "health"
+        },
+        {
+          "id": "r2q031",
+          "question": "いい読みだね、惜しい【2語・文】",
+          "answer": "Good guess."
+        },
+        {
+          "id": "r2q032",
+          "question": "劇場、映画館",
+          "answer": "theater"
+        },
+        {
+          "id": "r2q033",
+          "question": "（映画など）～を監督する、演出する - （映画）監督",
+          "answer": "direct - director"
+        },
+        {
+          "id": "r2q034",
+          "question": "サービス",
+          "answer": "service"
+        },
+        {
+          "id": "r2q035",
+          "question": "便利な",
+          "answer": "convenient"
+        },
+        {
+          "id": "r2q036",
+          "question": "ショックを受けた",
+          "answer": "shocked"
+        },
+        {
+          "id": "r2q037",
+          "question": "驚いた",
+          "answer": "surprised"
+        },
+        {
+          "id": "r2q038",
+          "question": "BよりもAを好む【2語】",
+          "answer": "prefer A to B"
+        },
+        {
+          "id": "r2q039",
+          "question": "最初の、独創的な",
+          "answer": "original"
+        },
+        {
+          "id": "r2q040",
+          "question": "～次第である【2語】",
+          "answer": "depend on ~"
+        },
+        {
+          "id": "r2q041",
+          "question": "印象的な",
+          "answer": "impressive"
+        },
+        {
+          "id": "r2q042",
+          "question": "いちばん下の所、底",
+          "answer": "bottom"
+        },
+        {
+          "id": "r2q043",
+          "question": "～に集中する【2語】(c-)",
+          "answer": "concentrate on ~"
+        },
+        {
+          "id": "r2q044",
+          "question": "快適な",
+          "answer": "comfortable"
+        },
+        {
+          "id": "r2q045",
+          "question": "個人的には",
+          "answer": "personally"
+        }
+      ]
+    },
+    {
+      "id": "round1",
+      "name": "第1回",
+      "shuffle": true,
+      "questions": [
+        {
+          "id": "r1q001",
+          "question": "初心者",
+          "answer": "beginner"
+        },
+        {
+          "id": "r1q002",
+          "question": "毎年の、年1回の、1年の",
+          "answer": "annual"
+        },
+        {
+          "id": "r1q003",
+          "question": "次の、次に続く(f-)",
+          "answer": "following"
+        },
+        {
+          "id": "r1q004",
+          "question": "質、品質、特質",
+          "answer": "quality"
+        },
+        {
+          "id": "r1q005",
+          "question": "～の両方【2語】",
+          "answer": "both of ~"
+        },
+        {
+          "id": "r1q006",
+          "question": "ここ、過去",
+          "answer": "past"
+        },
+        {
+          "id": "r1q007",
+          "question": "（数を意識した）いくつかの～",
+          "answer": "several ~"
+        },
+        {
+          "id": "r1q008",
+          "question": "国際的な",
+          "answer": "international"
+        },
+        {
+          "id": "r1q009",
+          "question": "減る",
+          "answer": "decrease"
+        },
+        {
+          "id": "r1q010",
+          "question": "以前は～だった【2語】",
+          "answer": "used to ~"
+        },
+        {
+          "id": "r1q011",
+          "question": "音楽家",
+          "answer": "musician"
+        },
+        {
+          "id": "r1q012",
+          "question": "「持ってくる、連れてくる」の原型-過去形-過去分詞",
+          "answer": "bring - brought - brought"
+        },
+        {
+          "id": "r1q013",
+          "question": "～に焦点を合わせる【2語】",
+          "answer": "focus on ~"
+        },
+        {
+          "id": "r1q014",
+          "question": "製品、産物",
+          "answer": "product"
+        },
+        {
+          "id": "r1q015",
+          "question": "環境の",
+          "answer": "environmental"
+        },
+        {
+          "id": "r1q016",
+          "question": "力",
+          "answer": "power"
+        },
+        {
+          "id": "r1q017",
+          "question": "～を話し合う、検討する",
+          "answer": "discuss ~"
+        },
+        {
+          "id": "r1q018",
+          "question": "アルバム",
+          "answer": "album"
+        },
+        {
+          "id": "r1q019",
+          "question": "中古の",
+          "answer": "used"
+        },
+        {
+          "id": "r1q020",
+          "question": "聴衆",
+          "answer": "audience"
+        },
+        {
+          "id": "r1q021",
+          "question": "～をよく考える、考慮に入れる",
+          "answer": "consider ~"
+        },
+        {
+          "id": "r1q022",
+          "question": "最近(l-)",
+          "answer": "lately"
+        },
+        {
+          "id": "r1q023",
+          "question": "友情",
+          "answer": "friendship"
+        },
+        {
+          "id": "r1q024",
+          "question": "歌詞",
+          "answer": "lyric"
+        },
+        {
+          "id": "r1q025",
+          "question": "ひとりで、孤独で",
+          "answer": "alone"
+        },
+        {
+          "id": "r1q026",
+          "question": "ほんとうの、真実の、真の",
+          "answer": "true"
+        },
+        {
+          "id": "r1q027",
+          "question": "AにBを思い起こさせる【2語】",
+          "answer": "remind A of B"
+        },
+        {
+          "id": "r1q028",
+          "question": "タイトル",
+          "answer": "title"
+        },
+        {
+          "id": "r1q029",
+          "question": "不可能な",
+          "answer": "impossible"
+        },
+        {
+          "id": "r1q030",
+          "question": "複雑な",
+          "answer": "complex"
+        },
+        {
+          "id": "r1q031",
+          "question": "人",
+          "answer": "person"
+        },
+        {
+          "id": "r1q032",
+          "question": "対照的に【2語】",
+          "answer": "in contrast"
+        },
+        {
+          "id": "r1q033",
+          "question": "～を恐れて【3語】",
+          "answer": "be afraid of"
+        },
+        {
+          "id": "r1q034",
+          "question": "情報",
+          "answer": "information"
+        },
+        {
+          "id": "r1q035",
+          "question": "残る、ままでいる",
+          "answer": "remain"
+        },
+        {
+          "id": "r1q036",
+          "question": "展示されて【2語】",
+          "answer": "on display"
+        },
+        {
+          "id": "r1q037",
+          "question": "感情",
+          "answer": "feeling"
+        },
+        {
+          "id": "r1q038",
+          "question": "～に苦しむ【2語】",
+          "answer": "suffer from ~"
+        },
+        {
+          "id": "r1q039",
+          "question": "影響、効果",
+          "answer": "effect"
+        },
+        {
+          "id": "r1q040",
+          "question": "詳細に【2語】",
+          "answer": "in detail"
+        },
+        {
+          "id": "r1q041",
+          "question": "少なくとも【2語】",
+          "answer": "at least"
+        },
+        {
+          "id": "r1q042",
+          "question": "生き残る",
+          "answer": "survive"
+        },
+        {
+          "id": "r1q043",
+          "question": "～を引き起こす",
+          "answer": "cause ~"
+        },
+        {
+          "id": "r1q044",
+          "question": "～を受け取る",
+          "answer": "receive ~"
+        },
+        {
+          "id": "r1q045",
+          "question": "健康",
+          "answer": "health"
+        }
+      ]
+    }
+  ]
+}
