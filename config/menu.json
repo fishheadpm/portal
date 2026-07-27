@@ -115,8 +115,8 @@
         {
           "id": "history",
           "title": "歴史",
-          "type": "external",
-          "url": "https://fishheadpm.github.io/history/"
+          "type": "common",
+          "data": "data/history.json"
         },
         {
           "id": "citizens",
