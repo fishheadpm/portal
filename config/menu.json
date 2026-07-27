@@ -24,6 +24,12 @@
           "data": "data/kanbun_bunpou.json"
         },
         {
+          "id": "yojijukugo",
+          "title": "四字熟語",
+          "type": "common",
+          "data": "data/yojijukugo.json"
+        },
+        {
           "id": "difficult_words",
           "title": "難読語",
           "type": "external",
