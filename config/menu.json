@@ -47,12 +47,12 @@
           "type": "common",
           "data": "data/english_words.json"
         },
-//        {
-//          "id": "english_blanks",
-//          "title": "穴埋め問題①",
-//          "type": "external",
-//          "url": "https://fishheadpm.github.io/e_blanks/"
-//        },
+/*        {
+          "id": "english_blanks",
+          "title": "穴埋め問題①",
+          "type": "external",
+          "url": "https://fishheadpm.github.io/e_blanks/"
+*/        },
         {
           "id": "breakthrough",
           "title": "Breakthrough",
