@@ -218,3 +218,70 @@ h2 { margin: 0 0 18px; font-size: 21px; text-align: center; }
   .question-card { min-height: 270px; padding: 22px 18px; }
   .two-column { grid-template-columns: 1fr; }
 }
+
+/* roundごとの開始・再開・履歴削除メニュー */
+.round-card {
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.round-card-title {
+  margin: 0;
+  font-size: 19px;
+  text-align: center;
+}
+
+.round-card-status {
+  margin: 10px 0 16px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.round-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.round-actions .reset-history-button {
+  grid-column: 1 / -1;
+}
+
+.secondary-button:disabled {
+  border-color: var(--border);
+  background: #f2f4f7;
+  color: #98a2b3;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.reset-history-button {
+  width: 100%;
+  min-height: 46px;
+  padding: 10px 14px;
+  border: 1px solid #fda29b;
+  border-radius: 12px;
+  background: #fff;
+  color: var(--danger);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.reset-history-button:hover {
+  background: var(--danger-soft);
+}
+
+@media (max-width: 480px) {
+  .round-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .round-actions .reset-history-button {
+    grid-column: auto;
+  }
+}
