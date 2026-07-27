@@ -219,13 +219,64 @@ h2 { margin: 0 0 18px; font-size: 21px; text-align: center; }
   .two-column { grid-template-columns: 1fr; }
 }
 
-/* roundごとの開始・再開・履歴削除メニュー */
+/* round選択プルダウンと開始・再開・履歴削除メニュー */
+.round-selector-area {
+  margin-bottom: 14px;
+}
+
+.round-selector-label {
+  display: block;
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.round-selector {
+  width: 100%;
+  min-height: 54px;
+  padding: 12px 44px 12px 16px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background-color: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 17px;
+  font-weight: 700;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+}
+
+.round-selector:focus {
+  border-color: var(--primary);
+  outline: 3px solid rgba(63, 81, 181, 0.14);
+}
+
+.selected-round-area {
+  min-height: 220px;
+}
+
 .round-card {
   padding: 18px;
   border: 1px solid var(--border);
   border-radius: 16px;
   background: var(--surface);
   box-shadow: var(--shadow);
+}
+
+.selected-round-card {
+  animation: round-card-fade 0.16s ease-out;
+}
+
+@keyframes round-card-fade {
+  from {
+    opacity: 0;
+    transform: translateY(3px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .round-card-title {
