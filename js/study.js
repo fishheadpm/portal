@@ -12,7 +12,8 @@ const state = {
   currentIndex: 0,
   known: 0,
   unknown: 0,
-  unknownQuestions: []
+  unknownQuestions: [],
+  selectedRoundId: null
 };
 
 const el = {};
@@ -163,9 +164,42 @@ function renderRounds() {
     return;
   }
 
+  const availableIds = new Set(state.data.rounds.map(round => round.id));
+  if (!state.selectedRoundId || !availableIds.has(state.selectedRoundId)) {
+    state.selectedRoundId = state.data.rounds[0].id;
+  }
+
+  const selectorArea = document.createElement('div');
+  selectorArea.className = 'round-selector-area';
+
+  const label = document.createElement('label');
+  label.className = 'round-selector-label';
+  label.htmlFor = 'roundSelector';
+  label.textContent = '学習する回を選択';
+
+  const select = document.createElement('select');
+  select.id = 'roundSelector';
+  select.className = 'round-selector';
+
   for (const round of state.data.rounds) {
+    const option = document.createElement('option');
+    option.value = round.id;
+    option.textContent = round.name;
+    option.selected = round.id === state.selectedRoundId;
+    select.appendChild(option);
+  }
+
+  const detailArea = document.createElement('div');
+  detailArea.className = 'selected-round-area';
+
+  function renderSelectedRound() {
+    const round = state.data.rounds.find(item => item.id === state.selectedRoundId);
+    detailArea.innerHTML = '';
+
+    if (!round) return;
+
     const card = document.createElement('section');
-    card.className = 'round-card';
+    card.className = 'round-card selected-round-card';
 
     const heading = document.createElement('h3');
     heading.className = 'round-card-title';
@@ -174,7 +208,8 @@ function renderRounds() {
     const summary = getRoundHistorySummary(round.id);
     const status = document.createElement('p');
     status.className = 'round-card-status';
-    status.textContent = `問題数：${round.questions.length}　わかっていた：${summary.known}　わからなかった：${summary.unknown}`;
+    status.textContent =
+      `問題数：${round.questions.length}　わかっていた：${summary.known}　わからなかった：${summary.unknown}`;
 
     const actions = document.createElement('div');
     actions.className = 'round-actions';
@@ -200,8 +235,17 @@ function renderRounds() {
 
     actions.append(startButton, continueButton, resetButton);
     card.append(heading, status, actions);
-    el.roundList.appendChild(card);
+    detailArea.appendChild(card);
   }
+
+  select.addEventListener('change', () => {
+    state.selectedRoundId = select.value;
+    renderSelectedRound();
+  });
+
+  selectorArea.append(label, select);
+  el.roundList.append(selectorArea, detailArea);
+  renderSelectedRound();
 }
 
 function prepareQuestionOrder(round, source = round.questions) {
