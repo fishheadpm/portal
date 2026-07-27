@@ -45,7 +45,7 @@
           "id": "words",
           "title": "ワードマラソン",
           "type": "common",
-          "data": "english_words.json"
+          "data": "data/english_words.json"
         },
         {
           "id": "english_blanks",
