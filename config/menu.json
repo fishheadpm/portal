@@ -86,7 +86,7 @@
           "id": "chemistry_formula",
           "title": "化学式、化学反応式",
           "type": "common",
-          "url": "data/chemistry_formulas.json"
+          "data": "data/chemistry_formulas.json"
         },
         {
           "id": "chemistry",
