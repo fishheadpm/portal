@@ -13,9 +13,9 @@
         },
         {
           "id": "kobun",
-          "title": "古文テスト対策",
-          "type": "external",
-          "url": "https://fishheadpm.github.io/kobun/"
+          "title": "古文助詞",
+          "type": "common",
+          "data": "kobun_jodoushi.json"
         },
         {
           "id": "difficult_words",
