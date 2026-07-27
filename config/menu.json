@@ -25,9 +25,9 @@
         },
         {
           "id": "kanbun",
-          "title": "漢文",
-          "type": "external",
-          "url": "https://fishheadpm.github.io/kanbun/"
+          "title": "漢文文法",
+          "type": "common",
+          "data": "data/kanbun_bunpou.json"
         },
         {
           "id": "kanji",
