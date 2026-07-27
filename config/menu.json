@@ -103,8 +103,8 @@
         {
           "id": "physics",
           "title": "物理",
-          "type": "external",
-          "url": "https://fishheadpm.github.io/physics/"
+          "type": "common",
+          "data": "data/physics.json"
         }
       ]
     },
