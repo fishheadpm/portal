@@ -84,15 +84,9 @@
       "items": [
         {
           "id": "chemistry_formula",
-          "title": "化学式",
-          "type": "external",
-          "url": "https://fishheadpm.github.io/chemistry-easy-app/"
-        },
-        {
-          "id": "chemistry_reaction",
-          "title": "化学反応式",
-          "type": "external",
-          "url": "https://fishheadpm.github.io/chemistry-hard-app/"
+          "title": "化学式、化学反応式",
+          "type": "common",
+          "url": "data/chemistry_formulas.json"
         },
         {
           "id": "chemistry",
