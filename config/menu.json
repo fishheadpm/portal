@@ -44,8 +44,8 @@
         {
           "id": "words",
           "title": "ワードマラソン",
-          "type": "external",
-          "url": "https://fishheadpm.github.io/words/"
+          "type": "common",
+          "data": "english_words.json"
         },
         {
           "id": "english_blanks",
