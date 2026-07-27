@@ -1,7 +1,8 @@
 'use strict';
 
 const MENU_URL = `config/menu.json?v=${Date.now()}`;
-const STORAGE_PREFIX = 'studyCommon.history.v1';
+const HISTORY_STORAGE_PREFIX = 'studyCommon.history.v1';
+const PROGRESS_STORAGE_PREFIX = 'studyCommon.progress.v1';
 
 const state = {
   course: null,
@@ -75,6 +76,84 @@ function showOnly(screen) {
     .forEach(item => item.classList.toggle('hidden', item !== screen));
 }
 
+function historyStorageKey() {
+  return `${HISTORY_STORAGE_PREFIX}.${state.data.app.id}`;
+}
+
+function progressStorageKey() {
+  return `${PROGRESS_STORAGE_PREFIX}.${state.data.app.id}`;
+}
+
+function loadStorageObject(key) {
+  try {
+    return JSON.parse(localStorage.getItem(key)) || {};
+  } catch {
+    return {};
+  }
+}
+
+function saveStorageObject(key, value) {
+  if (Object.keys(value).length === 0) {
+    localStorage.removeItem(key);
+  } else {
+    localStorage.setItem(key, JSON.stringify(value));
+  }
+}
+
+function loadHistory() {
+  return loadStorageObject(historyStorageKey());
+}
+
+function loadAllProgress() {
+  return loadStorageObject(progressStorageKey());
+}
+
+function loadRoundProgress(roundId) {
+  return loadAllProgress()[roundId] || null;
+}
+
+function clearRoundProgress(roundId) {
+  const progress = loadAllProgress();
+  delete progress[roundId];
+  saveStorageObject(progressStorageKey(), progress);
+}
+
+function saveCurrentProgress() {
+  if (!state.currentRound || state.questions.length === 0) return;
+
+  const progress = loadAllProgress();
+  progress[state.currentRound.id] = {
+    questionIds: state.questions.map(question => question.id),
+    currentIndex: state.currentIndex,
+    known: state.known,
+    unknown: state.unknown,
+    unknownQuestionIds: state.unknownQuestions.map(question => question.id),
+    updatedAt: new Date().toISOString()
+  };
+  saveStorageObject(progressStorageKey(), progress);
+}
+
+function hasContinuableProgress(round) {
+  const progress = loadRoundProgress(round.id);
+  return Boolean(
+    progress &&
+    Array.isArray(progress.questionIds) &&
+    progress.questionIds.length > 0 &&
+    Number.isInteger(progress.currentIndex) &&
+    progress.currentIndex >= 0 &&
+    progress.currentIndex < progress.questionIds.length
+  );
+}
+
+function getRoundHistorySummary(roundId) {
+  const roundHistory = loadHistory()[roundId] || {};
+  return Object.values(roundHistory).reduce((summary, record) => {
+    summary.known += Number(record.knownCount) || 0;
+    summary.unknown += Number(record.unknownCount) || 0;
+    return summary;
+  }, { known: 0, unknown: 0 });
+}
+
 function renderRounds() {
   showOnly(el.roundScreen);
   el.roundList.innerHTML = '';
@@ -85,19 +164,54 @@ function renderRounds() {
   }
 
   for (const round of state.data.rounds) {
-    const button = document.createElement('button');
-    button.type = 'button';
-    button.className = 'menu-button';
-    button.textContent = round.name;
-    button.addEventListener('click', () => startRound(round));
-    el.roundList.appendChild(button);
+    const card = document.createElement('section');
+    card.className = 'round-card';
+
+    const heading = document.createElement('h3');
+    heading.className = 'round-card-title';
+    heading.textContent = round.name;
+
+    const summary = getRoundHistorySummary(round.id);
+    const status = document.createElement('p');
+    status.className = 'round-card-status';
+    status.textContent = `問題数：${round.questions.length}　わかっていた：${summary.known}　わからなかった：${summary.unknown}`;
+
+    const actions = document.createElement('div');
+    actions.className = 'round-actions';
+
+    const startButton = document.createElement('button');
+    startButton.type = 'button';
+    startButton.className = 'primary-button';
+    startButton.textContent = '初めからやる';
+    startButton.addEventListener('click', () => startRoundFromBeginning(round));
+
+    const continueButton = document.createElement('button');
+    continueButton.type = 'button';
+    continueButton.className = 'secondary-button';
+    continueButton.textContent = '続きからやる';
+    continueButton.disabled = !hasContinuableProgress(round);
+    continueButton.addEventListener('click', () => continueRound(round));
+
+    const resetButton = document.createElement('button');
+    resetButton.type = 'button';
+    resetButton.className = 'reset-history-button';
+    resetButton.textContent = '履歴の削除';
+    resetButton.addEventListener('click', () => resetRoundData(round));
+
+    actions.append(startButton, continueButton, resetButton);
+    card.append(heading, status, actions);
+    el.roundList.appendChild(card);
   }
 }
 
-function startRound(round, questionOverride = null) {
+function prepareQuestionOrder(round, source = round.questions) {
+  return round.shuffle === true ? shuffle(source) : [...source];
+}
+
+function startRoundFromBeginning(round, questionOverride = null) {
+  clearRoundProgress(round.id);
   state.currentRound = round;
-  const source = questionOverride || round.questions;
-  state.questions = round.shuffle === true ? shuffle(source) : [...source];
+  state.questions = prepareQuestionOrder(round, questionOverride || round.questions);
   state.currentIndex = 0;
   state.known = 0;
   state.unknown = 0;
@@ -108,8 +222,59 @@ function startRound(round, questionOverride = null) {
     return;
   }
 
+  saveCurrentProgress();
   showOnly(el.studyScreen);
   renderQuestion();
+}
+
+function continueRound(round) {
+  const progress = loadRoundProgress(round.id);
+  if (!progress) {
+    renderRounds();
+    return;
+  }
+
+  const questionMap = new Map(round.questions.map(question => [question.id, question]));
+  const restoredQuestions = progress.questionIds
+    .map(id => questionMap.get(id))
+    .filter(Boolean);
+
+  if (
+    restoredQuestions.length !== progress.questionIds.length ||
+    progress.currentIndex >= restoredQuestions.length
+  ) {
+    clearRoundProgress(round.id);
+    window.alert('問題データが変更されたため、保存されていた途中経過を利用できません。初めから開始してください。');
+    renderRounds();
+    return;
+  }
+
+  state.currentRound = round;
+  state.questions = restoredQuestions;
+  state.currentIndex = progress.currentIndex;
+  state.known = Number(progress.known) || 0;
+  state.unknown = Number(progress.unknown) || 0;
+  state.unknownQuestions = (progress.unknownQuestionIds || [])
+    .map(id => questionMap.get(id))
+    .filter(Boolean);
+
+  showOnly(el.studyScreen);
+  renderQuestion();
+}
+
+function resetRoundData(round) {
+  const confirmed = window.confirm(
+    `「${round.name}」の正解・間違い履歴と途中経過をすべて削除します。\nこの操作は元に戻せません。`
+  );
+  if (!confirmed) return;
+
+  const history = loadHistory();
+  delete history[round.id];
+  saveStorageObject(historyStorageKey(), history);
+  clearRoundProgress(round.id);
+
+  renderRounds();
+  window.alert(`「${round.name}」の履歴を削除しました。`);
 }
 
 function renderQuestion() {
@@ -139,18 +304,6 @@ function revealAnswer() {
   el.judgementControls.classList.remove('hidden');
 }
 
-function historyStorageKey() {
-  return `${STORAGE_PREFIX}.${state.data.app.id}`;
-}
-
-function loadHistory() {
-  try {
-    return JSON.parse(localStorage.getItem(historyStorageKey())) || {};
-  } catch {
-    return {};
-  }
-}
-
 function saveJudgement(question, result) {
   const history = loadHistory();
   history[state.currentRound.id] ??= {};
@@ -167,7 +320,7 @@ function saveJudgement(question, result) {
   record.lastAnsweredAt = new Date().toISOString();
   history[state.currentRound.id][question.id] = record;
 
-  localStorage.setItem(historyStorageKey(), JSON.stringify(history));
+  saveStorageObject(historyStorageKey(), history);
 }
 
 function judge(result) {
@@ -182,8 +335,10 @@ function judge(result) {
 
   state.currentIndex += 1;
   if (state.currentIndex >= state.questions.length) {
+    clearRoundProgress(state.currentRound.id);
     renderResult();
   } else {
+    saveCurrentProgress();
     renderQuestion();
   }
 }
@@ -198,7 +353,7 @@ function renderResult() {
 
 function retryUnknown() {
   if (state.unknownQuestions.length === 0) return;
-  startRound(state.currentRound, [...state.unknownQuestions]);
+  startRoundFromBeginning(state.currentRound, [...state.unknownQuestions]);
 }
 
 function showError(message) {
