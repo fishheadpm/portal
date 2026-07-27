@@ -15,7 +15,7 @@
           "id": "kobun",
           "title": "古文助詞",
           "type": "common",
-          "data": "kobun_jodoushi.json"
+          "data": "data/kobun_joshi.json"
         },
         {
           "id": "difficult_words",
