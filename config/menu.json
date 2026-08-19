@@ -57,7 +57,7 @@
           "id": "breakthrough",
           "title": "Breakthrough",
           "type": "common",
-          "url": "data/breakthrough.json"
+          "data": "data/breakthrough.json"
         },
         {
           "id": "eiken_pre2",
