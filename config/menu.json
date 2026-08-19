@@ -56,8 +56,8 @@
         {
           "id": "breakthrough",
           "title": "Breakthrough",
-          "type": "external",
-          "url": "https://fishheadpm.github.io/breakthrough/"
+          "type": "common",
+          "url": "data/breakthrough"
         },
         {
           "id": "eiken_pre2",
