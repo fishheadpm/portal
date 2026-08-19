@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "app": {
+    "id": "breakthrough_infinitive_gerund",
+    "title": "Breakthrough 不定詞・動名詞",
+    "description": "日本文を見て英文を確認する",
+    "vertical": false
+  },
+  "rounds": [
+    {
+      "id": "round1",
+      "name": "不定詞",
+      "shuffle": true,
+      "questions": [
+        {
+          "id": "r1q001",
+          "question": "毎日運動することは健康によい。",
+          "answer": "To exercise every day is good for the health."
+        },
+        {
+          "id": "r1q002",
+          "question": "体重を減らすことが必要だ。少し太りすぎだ。",
+          "answer": "I need to lose weight. I'm a bit overweight."
+        },
+        {
+          "id": "r1q003",
+          "question": "私の夢はメジャーリーグでプレーすることだ。",
+          "answer": "My dream is to play in the Major Leagues."
+        },
+        {
+          "id": "r1q004",
+          "question": "僕は大学へ進学しないことに決めた。",
+          "answer": "I decided not to go to college."
+        },
+        {
+          "id": "r1q005",
+          "question": "外国へ行く時にはパスポートを取ることが必要だ。",
+          "answer": "It is necessary to get a passport when you go abroad."
+        },
+        {
+          "id": "r1q006",
+          "question": "何も言わないことをより賢明だと思った→何も言わない方が賢明だと思った。",
+          "answer": "I thought it wiser to say nothing."
+        },
+        {
+          "id": "r1q007",
+          "question": "二条城へ行きたいのです。どこで降りればいいのか教えてください。",
+          "answer": "I want to visit Nijo Castle. Can you tell me where to get off, please?"
+        },
+        {
+          "id": "r1q008",
+          "question": "のどがかわいています。何か冷たい飲むためのもの→冷たい飲み物をください。",
+          "answer": "I'm thirsty. Give me something cold to drink."
+        },
+        {
+          "id": "r1q009",
+          "question": "ケンは遊ぶための友達→遊び友達が多い。",
+          "answer": "Ken has a lot of friends to play with."
+        },
+        {
+          "id": "r1q010",
+          "question": "ボブは健康を維持するためにジョギングを始めた。",
+          "answer": "Bob has started jogging to keep fit."
+        },
+        {
+          "id": "r1q011",
+          "question": "家族を助けるためにジェイムズはアルバイトを始めた。",
+          "answer": "James has started working part-time in order to help his family."
+        },
+        {
+          "id": "r1q012",
+          "question": "私は目覚めると病院にいた。何が起こったのか覚えていなかった。",
+          "answer": "I woke up to find myself in the hospital. I didn't remember what had happened."
+        },
+        {
+          "id": "r1q013",
+          "question": "初めまして。あなたにお会いできてうれしいです。",
+          "answer": "How do you do? I'm glad to meet you."
+        },
+        {
+          "id": "r1q014",
+          "question": "このコンピュータは持ち運びやすい。それは仕事をしている人に人気がある。",
+          "answer": "This computer is easy to carry. It is popular with business people."
+        },
+        {
+          "id": "r1q015",
+          "question": "ケイトは話していて楽しい。",
+          "answer": "Kate is pleasant to talk with."
+        },
+        {
+          "id": "r1q016",
+          "question": "そんなふうにふるまうなんて彼は紳士であるはずがない。",
+          "answer": "He cannot be a gentleman to behave like that."
+        },
+        {
+          "id": "r1q017",
+          "question": "道路には雪が残っていた。母は足元に注意するように私に言った。",
+          "answer": "There was snow in the street. My mother told me to watch my step."
+        },
+        {
+          "id": "r1q018",
+          "question": "あなたに上司に会ってもらいたいと思っています。",
+          "answer": "I would like you to meet my boss."
+        },
+        {
+          "id": "r1q019",
+          "question": "彼らは皆、ケイトが助けを求めて叫ぶのを聞いた。",
+          "answer": "They all heard Kate cry for help."
+        },
+        {
+          "id": "r1q020",
+          "question": "私の成績は悪くなってきている。田中先生はしばしば放課後私に勉強をさせる。",
+          "answer": "My grades are getting worse. Mr. Tanaka often makes me study after school."
+        },
+        {
+          "id": "r1q021",
+          "question": "（人は）お互いに信頼し合うことが大切だ。",
+          "answer": "It is important to trust one another."
+        },
+        {
+          "id": "r1q022",
+          "question": "お前には私の仕事を引き継いでもらいたい。",
+          "answer": "I want you to take over my job."
+        },
+        {
+          "id": "r1q023",
+          "question": "初心者がここでスキーをするのは危険だ。",
+          "answer": "It's dangerous for beginners to ski here."
+        },
+        {
+          "id": "r1q024",
+          "question": "昨夜私を家まで車で送ってくれるとは君は親切だった→昨夜家まで送ってくれてありがとう。",
+          "answer": "It was kind of you to drive me home last night."
+        },
+        {
+          "id": "r1q025",
+          "question": "この時計は私が買うには高価すぎる→高価すぎて私には買えない。",
+          "answer": "This watch is too expensive for me to buy."
+        },
+        {
+          "id": "r1q026",
+          "question": "ビルは私を駅に車で迎えに来てくれるほど親切だった→親切にも私を駅に迎えに来てくれた。",
+          "answer": "Bill was kind enough to pick me up at the station."
+        },
+        {
+          "id": "r1q027",
+          "question": "ジャックはバスケットボール部に所属しているようだ。",
+          "answer": "Jack seems to belong to the basketball club."
+        },
+        {
+          "id": "r1q028",
+          "question": "今日は何かいいことが起こりそうだ。",
+          "answer": "Something good is likely to happen today."
+        }
+      ]
+    },
+    {
+      "id": "round2",
+      "name": "動名詞",
+      "shuffle": true,
+      "questions": [
+        {
+          "id": "r2q001",
+          "question": "ケイトは看護師であることを誇りに思っている。",
+          "answer": "Kate is proud of being a nurse."
+        },
+        {
+          "id": "r2q002",
+          "question": "朝、犬を散歩に連れて行くことが日課になっている。",
+          "answer": "Walking my dog in the morning has become a daily routine."
+        },
+        {
+          "id": "r2q003",
+          "question": "趣味を持つことは人生を豊かにしてくれる。",
+          "answer": "Having a hobby will enrich your life."
+        },
+        {
+          "id": "r2q004",
+          "question": "私の好きな気晴らし（娯楽）は音楽を聴くことです。",
+          "answer": "My favorite pastime is listening to music."
+        },
+        {
+          "id": "r2q005",
+          "question": "私の叔父は退職してからゴルフを始めた。",
+          "answer": "My uncle started playing golf after he retired."
+        },
+        {
+          "id": "r2q006",
+          "question": "僕は古いコインの収集に興味を持っている。",
+          "answer": "I'm interested in collecting old coins."
+        },
+        {
+          "id": "r2q007",
+          "question": "時間通りに来なくてごめんなさい。",
+          "answer": "Excuse me for not coming on time."
+        },
+        {
+          "id": "r2q008",
+          "question": "疲れている。今夜は勉強する気がしない。",
+          "answer": "I'm tired. I don't feel like studying tonight."
+        },
+        {
+          "id": "r2q009",
+          "question": "京都は何度も訪れる価値がある。とてもたくさん見るものがある。",
+          "answer": "Kyoto is worth visiting many times. There are so many things to see."
+        },
+        {
+          "id": "r2q010",
+          "question": "今日の午後授業をサボってしかられた。",
+          "answer": "I was scolded for cutting class this afternoon."
+        },
+        {
+          "id": "r2q011",
+          "question": "彼は大学を卒業してすぐにヨーロッパを旅行して1年間を過ごした。",
+          "answer": "On graduating from college, he spent a year traveling around Europe."
+        },
+        {
+          "id": "r2q012",
+          "question": "テレビゲームをすることはとてもおもしろい。",
+          "answer": "Playing video games is a lot of fun."
+        },
+        {
+          "id": "r2q013",
+          "question": "彼女は絵を描くのが好きだ。",
+          "answer": "She is fond of painting pictures."
+        },
+        {
+          "id": "r2q014",
+          "question": "兄がオックスフォード大学で勉強していることを誇りに思う。",
+          "answer": "I'm proud of my brother('s) studying at Oxford University."
+        },
+        {
+          "id": "r2q015",
+          "question": "両親は僕が留学すること→僕の留学に反対している。",
+          "answer": "My parents are opposed to my (/ me) studying abroad."
+        },
+        {
+          "id": "r2q016",
+          "question": "すぐに雨がやんで晴れわたった。",
+          "answer": "It soon stopped raining and cleared up."
+        },
+        {
+          "id": "r2q017",
+          "question": "サチはオーストリアで音楽を勉強することにした。",
+          "answer": "Sachi has decided to study music in Austria."
+        },
+        {
+          "id": "r2q018",
+          "question": "ジムは結婚した後も両親と一緒に住み続けた。",
+          "answer": "Jim continued to live (/ living) with his parents even after his marriage."
+        },
+        {
+          "id": "r2q019",
+          "question": "職場を出る時に鍵をかけた覚えがある。",
+          "answer": "I remember locking the office when I left."
+        },
+        {
+          "id": "r2q020",
+          "question": "職場を出る際には鍵をかけるのを覚えておいて→忘れないでください。",
+          "answer": "Remember to lock the office when you leave."
+        }
+      ]
+    }
+  ]
+}
