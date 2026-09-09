@@ -32,8 +32,8 @@
         {
           "id": "difficult_words",
           "title": "難読語",
-          "type": "external",
-          "url": "https://fishheadpm.github.io/dwords/"
+          "type": "common",
+          "data": "data/nango.json"
         },
         {
           "id": "kanji",
