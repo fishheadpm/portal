@@ -8,6 +8,238 @@
   },
   "rounds": [
     {
+      "id": "round9",
+      "name": "第9回",
+      "shuffle": true,
+      "questions": [
+        {
+          "id": "r9q001",
+          "question": "～を分配する",
+          "answer": "distribute ~"
+        },
+        {
+          "id": "r9q002",
+          "question": "おそらく たぶん",
+          "answer": "probably"
+        },
+        {
+          "id": "r9q003",
+          "question": "機会(o-)",
+          "answer": "opportunity"
+        },
+        {
+          "id": "r9q004",
+          "question": "結果",
+          "answer": "result"
+        },
+        {
+          "id": "r9q005",
+          "question": "真ん中",
+          "answer": "middle"
+        },
+        {
+          "id": "r9q006",
+          "question": "～を認識する",
+          "answer": "recognize ~"
+        },
+        {
+          "id": "r9q007",
+          "question": "～を成し遂げる 達成する 得る",
+          "answer": "achieve"
+        },
+        {
+          "id": "r9q008",
+          "question": "～に敬意を表す",
+          "answer": "honor~"
+        },
+        {
+          "id": "r9q009",
+          "question": "業績、達成、獲得",
+          "answer": "achievement"
+        },
+        {
+          "id": "r9q010",
+          "question": "自由",
+          "answer": "liberty"
+        },
+        {
+          "id": "r9q011",
+          "question": "正義",
+          "answer": "justice"
+        },
+        {
+          "id": "r9q012",
+          "question": "法、法律",
+          "answer": "law"
+        },
+        {
+          "id": "r9q013",
+          "question": "～を統制する",
+          "answer": "control~"
+        },
+        {
+          "id": "r9q014",
+          "question": "～を制限する",
+          "answer": "limit~"
+        },
+        {
+          "id": "r9q015",
+          "question": "公共の",
+          "answer": "public"
+        },
+        {
+          "id": "r9q016",
+          "question": "区域、区切り、部分(s-)",
+          "answer": "section"
+        },
+        {
+          "id": "r9q017",
+          "question": "いっぱいに満ちる【2語】",
+          "answer": "fill up"
+        },
+        {
+          "id": "r9q018",
+          "question": "拒否する、断る",
+          "answer": "refuse"
+        },
+        {
+          "id": "r9q019",
+          "question": "～を逮捕する",
+          "answer": "arrest~"
+        },
+        {
+          "id": "r9q020",
+          "question": "～を動揺させる、だめにする、ひっくり返す",
+          "answer": "upset~"
+        },
+        {
+          "id": "r9q021",
+          "question": "指導者",
+          "answer": "leader"
+        },
+        {
+          "id": "r9q022",
+          "question": "成功",
+          "answer": "success"
+        },
+        {
+          "id": "r9q023",
+          "question": "「導く、先導する」の原形-過去形-過去分詞",
+          "answer": "lead - led - led"
+        },
+        {
+          "id": "r9q024",
+          "question": "自由に～することができる【3語】",
+          "answer": "be free to V"
+        },
+        {
+          "id": "r9q025",
+          "question": "始まり(b-)",
+          "answer": "beginning"
+        },
+        {
+          "id": "r9q026",
+          "question": "勇気",
+          "answer": "courage"
+        },
+        {
+          "id": "r9q027",
+          "question": "運動、動き",
+          "answer": "movement"
+        },
+        {
+          "id": "r9q028",
+          "question": "演説をする【3語】",
+          "answer": "make a speech"
+        },
+        {
+          "id": "r9q029",
+          "question": "国家",
+          "answer": "nation"
+        },
+        {
+          "id": "r9q030",
+          "question": "～を判断する",
+          "answer": "judge~"
+        },
+        {
+          "id": "r9q031",
+          "question": "中身、内容",
+          "answer": "content"
+        },
+        {
+          "id": "r9q032",
+          "question": "死",
+          "answer": "death"
+        },
+        {
+          "id": "r9q033",
+          "question": "機械",
+          "answer": "machine"
+        },
+        {
+          "id": "r9q034",
+          "question": "そのとおり、正確に",
+          "answer": "exactly"
+        },
+        {
+          "id": "r9q035",
+          "question": "～を捨てる【2語】",
+          "answer": "throw away~"
+        },
+        {
+          "id": "r9q036",
+          "question": "健康な健全な",
+          "answer": "healthy"
+        },
+        {
+          "id": "r9q037",
+          "question": "ふるまい、行動",
+          "answer": "behavior"
+        },
+        {
+          "id": "r9q038",
+          "question": "～の代わりに【2語】",
+          "answer": "instead of~"
+        },
+        {
+          "id": "r9q039",
+          "question": "～を登る",
+          "answer": "climb~"
+        },
+        {
+          "id": "r9q040",
+          "question": "～を並べる【2語】",
+          "answer": "line up~"
+        },
+        {
+          "id": "r9q041",
+          "question": "足跡",
+          "answer": "footprint"
+        },
+        {
+          "id": "r9q042",
+          "question": "ステッカー、シール",
+          "answer": "sticker"
+        },
+        {
+          "id": "r9q043",
+          "question": "心配して、不安で(n-)",
+          "answer": "nervous"
+        },
+        {
+          "id": "r9q044",
+          "question": "きちんと",
+          "answer": "neatly"
+        },
+        {
+          "id": "r9q045",
+          "question": "忠告、助言、アドバイス",
+          "answer": "advice"
+        }
+      ]
+    },
+    {
       "id": "round8",
       "name": "第8回",
       "shuffle": true,
