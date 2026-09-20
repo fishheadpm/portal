@@ -121,8 +121,8 @@
         {
           "id": "citizens",
           "title": "公民",
-          "type": "external",
-          "url": "https://fishheadpm.github.io/Citizens/"
+          "type": "common",
+          "data": "data/citizens.json"
         }
       ]
     }
