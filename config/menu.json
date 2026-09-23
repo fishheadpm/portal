@@ -97,8 +97,8 @@
         {
           "id": "biology",
           "title": "生物",
-          "type": "external",
-          "url": "https://fishheadpm.github.io/biology/"
+          "type": "common",
+          "data": "data/biology.json"
         },
         {
           "id": "physics",
