@@ -8,6 +8,238 @@
   },
   "rounds": [
     {
+      "id": "round10",
+      "name": "第10回",
+      "shuffle": true,
+      "questions": [
+        {
+          "id": "r10q001",
+          "question": "～に敬意を表す",
+          "answer": "honor"
+        },
+        {
+          "id": "r10q002",
+          "question": "拒否する、断る",
+          "answer": "refuse"
+        },
+        {
+          "id": "r10q003",
+          "question": "～を逮捕する",
+          "answer": "arrest~"
+        },
+        {
+          "id": "r10q004",
+          "question": "～を動揺させる、だめにする、ひっくり返す",
+          "answer": "upset~"
+        },
+        {
+          "id": "r10q005",
+          "question": "指導者",
+          "answer": "leader"
+        },
+        {
+          "id": "r10q006",
+          "question": "成功",
+          "answer": "success"
+        },
+        {
+          "id": "r10q007",
+          "question": "「導く、先導する」の原形-過去形-過去分詞",
+          "answer": "lead - led - led"
+        },
+        {
+          "id": "r10q008",
+          "question": "自由に～することができる【3語】",
+          "answer": "be free to V"
+        },
+        {
+          "id": "r10q009",
+          "question": "始まり(b-)",
+          "answer": "beginning"
+        },
+        {
+          "id": "r10q010",
+          "question": "勇気",
+          "answer": "courage"
+        },
+        {
+          "id": "r10q011",
+          "question": "運動、動き",
+          "answer": "movement"
+        },
+        {
+          "id": "r10q012",
+          "question": "演説をする【3語】",
+          "answer": "make a speech"
+        },
+        {
+          "id": "r10q013",
+          "question": "国家",
+          "answer": "nation"
+        },
+        {
+          "id": "r10q014",
+          "question": "～を判断する",
+          "answer": "judge"
+        },
+        {
+          "id": "r10q015",
+          "question": "中身、内容",
+          "answer": "content"
+        },
+        {
+          "id": "r10q016",
+          "question": "死",
+          "answer": "death"
+        },
+        {
+          "id": "r10q017",
+          "question": "機械",
+          "answer": "machine"
+        },
+        {
+          "id": "r10q018",
+          "question": "そのとおり、正確に",
+          "answer": "exactly"
+        },
+        {
+          "id": "r10q019",
+          "question": "～を捨てる【2語】",
+          "answer": "throw away~"
+        },
+        {
+          "id": "r10q020",
+          "question": "Oに～するよう励ます【2語】",
+          "answer": "encourage O to V"
+        },
+        {
+          "id": "r10q021",
+          "question": "健康な健全な",
+          "answer": "healthy"
+        },
+        {
+          "id": "r10q022",
+          "question": "ふるまい、行動",
+          "answer": "behavior"
+        },
+        {
+          "id": "r10q023",
+          "question": "～の代わりに【2語】",
+          "answer": "instead of~"
+        },
+        {
+          "id": "r10q024",
+          "question": "～を登る",
+          "answer": "climb"
+        },
+        {
+          "id": "r10q025",
+          "question": "～を並べる【2語】",
+          "answer": "line up~"
+        },
+        {
+          "id": "r10q026",
+          "question": "足跡",
+          "answer": "footprint"
+        },
+        {
+          "id": "r10q027",
+          "question": "ステッカー、シール",
+          "answer": "sticker"
+        },
+        {
+          "id": "r10q028",
+          "question": "心配して、不安で(n-)",
+          "answer": "nervous"
+        },
+        {
+          "id": "r10q029",
+          "question": "きちんと",
+          "answer": "neatly"
+        },
+        {
+          "id": "r10q030",
+          "question": "忠告、助言、アドバイス",
+          "answer": "advice"
+        },
+        {
+          "id": "r10q031",
+          "question": "過去",
+          "answer": "past"
+        },
+        {
+          "id": "r10q032",
+          "question": "真実",
+          "answer": "truth"
+        },
+        {
+          "id": "r10q033",
+          "question": "時代(p-)",
+          "answer": "period"
+        },
+        {
+          "id": "r10q034",
+          "question": "～を満足させる",
+          "answer": "satisfy~"
+        },
+        {
+          "id": "r10q035",
+          "question": "ごみくず(l-)",
+          "answer": "litter"
+        },
+        {
+          "id": "r10q036",
+          "question": "狭い",
+          "answer": "narrow"
+        },
+        {
+          "id": "r10q037",
+          "question": "～の前に【3語】",
+          "answer": "in front of~"
+        },
+        {
+          "id": "r10q038",
+          "question": "駐車",
+          "answer": "parking"
+        },
+        {
+          "id": "r10q039",
+          "question": "現れる ⇔ 消える",
+          "answer": "appear ⇔ disappear"
+        },
+        {
+          "id": "r10q040",
+          "question": "個人の、私有の",
+          "answer": "private"
+        },
+        {
+          "id": "r10q041",
+          "question": "込み合った",
+          "answer": "crowded"
+        },
+        {
+          "id": "r10q042",
+          "question": "（社会的な）問題",
+          "answer": "issue"
+        },
+        {
+          "id": "r10q043",
+          "question": "生息地",
+          "answer": "habitat"
+        },
+        {
+          "id": "r10q044",
+          "question": "歩道",
+          "answer": "path"
+        },
+        {
+          "id": "r10q045",
+          "question": "傷つきやすい",
+          "answer": "delicate"
+        }
+      ]
+    },
+    {
       "id": "round9",
       "name": "第9回",
       "shuffle": true,
