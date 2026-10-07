@@ -8,6 +8,238 @@
   },
   "rounds": [
     {
+      "id": "round11",
+      "name": "第11回",
+      "shuffle": true,
+      "questions": [
+        {
+          "id": "r11q001",
+          "question": "死",
+          "answer": "death"
+        },
+        {
+          "id": "r11q002",
+          "question": "機械",
+          "answer": "machine"
+        },
+        {
+          "id": "r11q003",
+          "question": "そのとおり、正確に",
+          "answer": "exactly"
+        },
+        {
+          "id": "r11q004",
+          "question": "～を捨てる【2語】",
+          "answer": "throw away~"
+        },
+        {
+          "id": "r11q005",
+          "question": "Oに～するよう励ます【2語】",
+          "answer": "encourage O to V"
+        },
+        {
+          "id": "r11q006",
+          "question": "健康な健全な",
+          "answer": "healthy"
+        },
+        {
+          "id": "r11q007",
+          "question": "ふるまい、行動",
+          "answer": "behavior"
+        },
+        {
+          "id": "r11q008",
+          "question": "～の代わりに【2語】",
+          "answer": "instead of~"
+        },
+        {
+          "id": "r11q009",
+          "question": "～を登る",
+          "answer": "climb"
+        },
+        {
+          "id": "r11q010",
+          "question": "～を並べる【2語】",
+          "answer": "line up~"
+        },
+        {
+          "id": "r11q011",
+          "question": "足跡",
+          "answer": "footprint"
+        },
+        {
+          "id": "r11q012",
+          "question": "ステッカー、シール",
+          "answer": "sticker"
+        },
+        {
+          "id": "r11q013",
+          "question": "心配して、不安で(n-)",
+          "answer": "nervous"
+        },
+        {
+          "id": "r11q014",
+          "question": "きちんと",
+          "answer": "neatly"
+        },
+        {
+          "id": "r11q015",
+          "question": "忠告、助言、アドバイス",
+          "answer": "advice"
+        },
+        {
+          "id": "r11q016",
+          "question": "過去",
+          "answer": "past"
+        },
+        {
+          "id": "r11q017",
+          "question": "真実",
+          "answer": "truth"
+        },
+        {
+          "id": "r11q018",
+          "question": "時代(p-)",
+          "answer": "period"
+        },
+        {
+          "id": "r11q019",
+          "question": "～を満足させる",
+          "answer": "satisfy~"
+        },
+        {
+          "id": "r11q020",
+          "question": "ごみくず(l-)",
+          "answer": "litter"
+        },
+        {
+          "id": "r11q021",
+          "question": "狭い",
+          "answer": "narrow"
+        },
+        {
+          "id": "r11q022",
+          "question": "～の前に【3語】",
+          "answer": "in front of~"
+        },
+        {
+          "id": "r11q023",
+          "question": "駐車",
+          "answer": "parking"
+        },
+        {
+          "id": "r11q024",
+          "question": "現れる ⇔ 消える",
+          "answer": "appear ⇔ disappear"
+        },
+        {
+          "id": "r11q025",
+          "question": "個人の、私有の",
+          "answer": "private"
+        },
+        {
+          "id": "r11q026",
+          "question": "込み合った",
+          "answer": "crowded"
+        },
+        {
+          "id": "r11q027",
+          "question": "（社会的な）問題",
+          "answer": "issue"
+        },
+        {
+          "id": "r11q028",
+          "question": "生息地",
+          "answer": "habitat"
+        },
+        {
+          "id": "r11q029",
+          "question": "歩道",
+          "answer": "path"
+        },
+        {
+          "id": "r11q030",
+          "question": "傷つきやすい",
+          "answer": "delicate"
+        },
+        {
+          "id": "r11q031",
+          "question": "賞、景品",
+          "answer": "prize"
+        },
+        {
+          "id": "r11q032",
+          "question": "～を受け入れる",
+          "answer": "accept~"
+        },
+        {
+          "id": "r11q033",
+          "question": "才能のある(t-)",
+          "answer": "talented"
+        },
+        {
+          "id": "r11q034",
+          "question": "～についていく【3語】",
+          "answer": "keep up with~"
+        },
+        {
+          "id": "r11q035",
+          "question": "AとBを比較する【2語】",
+          "answer": "compare A with B"
+        },
+        {
+          "id": "r11q036",
+          "question": "その上、さらに",
+          "answer": "besides"
+        },
+        {
+          "id": "r11q037",
+          "question": "研究、調査、探求",
+          "answer": "research"
+        },
+        {
+          "id": "r11q038",
+          "question": "～とのつながり【2語】",
+          "answer": "connection with~"
+        },
+        {
+          "id": "r11q039",
+          "question": "～を理解する【2語】",
+          "answer": "figure out~"
+        },
+        {
+          "id": "r11q040",
+          "question": "Oを駆り立てて～させる",
+          "answer": "motivate O to V"
+        },
+        {
+          "id": "r11q041",
+          "question": "～を深める",
+          "answer": "deepen~"
+        },
+        {
+          "id": "r11q042",
+          "question": "組織",
+          "answer": "organization"
+        },
+        {
+          "id": "r11q043",
+          "question": "重大な、深刻な",
+          "answer": "serious"
+        },
+        {
+          "id": "r11q044",
+          "question": "伝達する、気持ちを伝え合う",
+          "answer": "communicate"
+        },
+        {
+          "id": "r11q045",
+          "question": "医療の",
+          "answer": "medical"
+        }
+      ]
+    },
+    {
       "id": "round10",
       "name": "第10回",
       "shuffle": true,
