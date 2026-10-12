@@ -91,8 +91,8 @@
         {
           "id": "chemistry",
           "title": "化学",
-          "type": "external",
-          "url": "https://fishheadpm.github.io/chemistry/"
+          "type": "common",
+          "data": "data/chemistry.json"
         },
         {
           "id": "biology",
