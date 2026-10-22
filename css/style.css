@@ -213,9 +213,9 @@ h2 { margin: 0 0 18px; font-size: 21px; text-align: center; }
 }
 .error { color: var(--danger); }
 
-/* 古文助動詞は、スマートフォンで問題文と答えを横に並べて表示する */
+/* 縦書きの暗記教材は、スマートフォンで問題文と答えを横に並べて表示する */
 @media (max-width: 480px) and (orientation: portrait) {
-  #questionCard.vertical.kobun-jodoushi {
+  #questionCard.vertical.compact-vertical-study {
     height: 52dvh;
     min-height: 0;
     padding: 10px;
@@ -226,18 +226,18 @@ h2 { margin: 0 0 18px; font-size: 21px; text-align: center; }
     overflow: hidden;
   }
 
-  #questionCard.vertical.kobun-jodoushi .question-text,
-  #questionCard.vertical.kobun-jodoushi .answer-text {
+  #questionCard.vertical.compact-vertical-study .question-text,
+  #questionCard.vertical.compact-vertical-study .answer-text {
     max-height: 100%;
     font-size: clamp(16px, 4.6vw, 19px);
     line-height: 1.45;
   }
 
-  #questionCard.vertical.kobun-jodoushi .question-text {
+  #questionCard.vertical.compact-vertical-study .question-text {
     flex: 0 0 auto;
   }
 
-  #questionCard.vertical.kobun-jodoushi .answer-area {
+  #questionCard.vertical.compact-vertical-study .answer-area {
     display: flex;
     flex: 0 1 auto;
     align-items: flex-start;
@@ -250,18 +250,18 @@ h2 { margin: 0 0 18px; font-size: 21px; text-align: center; }
     border-left: 1px solid var(--border);
   }
 
-  #questionCard.vertical.kobun-jodoushi .answer-label {
+  #questionCard.vertical.compact-vertical-study .answer-label {
     flex: 0 0 auto;
     margin: 0;
     writing-mode: vertical-rl;
   }
 
-  #questionCard.vertical.kobun-jodoushi .answer-text {
+  #questionCard.vertical.compact-vertical-study .answer-text {
     flex: 0 1 auto;
     min-width: 0;
   }
 
-  #studyScreen.kobun-jodoushi .two-column {
+  #studyScreen.compact-vertical-study .two-column {
     grid-template-columns: 1fr 1fr;
   }
 }
