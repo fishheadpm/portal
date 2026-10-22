@@ -336,6 +336,8 @@ function renderQuestion() {
 
   const vertical = question.vertical ?? state.currentRound.vertical ?? state.data.app.vertical ?? false;
   el.questionCard.classList.toggle('vertical', vertical === true);
+  el.questionCard.classList.toggle('kobun-jodoushi', state.data.app.id === 'kobun_jodoushi');
+  el.studyScreen.classList.toggle('kobun-jodoushi', state.data.app.id === 'kobun_jodoushi');
 
   el.answerArea.classList.add('hidden');
   el.revealControls.classList.remove('hidden');
