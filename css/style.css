@@ -213,6 +213,59 @@ h2 { margin: 0 0 18px; font-size: 21px; text-align: center; }
 }
 .error { color: var(--danger); }
 
+/* 古文助動詞は、スマートフォンで問題文と答えを横に並べて表示する */
+@media (max-width: 480px) and (orientation: portrait) {
+  #questionCard.vertical.kobun-jodoushi {
+    height: 52dvh;
+    min-height: 0;
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    overflow: hidden;
+  }
+
+  #questionCard.vertical.kobun-jodoushi .question-text,
+  #questionCard.vertical.kobun-jodoushi .answer-text {
+    max-height: 100%;
+    font-size: clamp(16px, 4.6vw, 19px);
+    line-height: 1.45;
+  }
+
+  #questionCard.vertical.kobun-jodoushi .question-text {
+    flex: 0 0 auto;
+  }
+
+  #questionCard.vertical.kobun-jodoushi .answer-area {
+    display: flex;
+    flex: 0 1 auto;
+    align-items: flex-start;
+    gap: 6px;
+    height: 100%;
+    min-width: 0;
+    margin: 0;
+    padding: 0 0 0 8px;
+    border-top: 0;
+    border-left: 1px solid var(--border);
+  }
+
+  #questionCard.vertical.kobun-jodoushi .answer-label {
+    flex: 0 0 auto;
+    margin: 0;
+    writing-mode: vertical-rl;
+  }
+
+  #questionCard.vertical.kobun-jodoushi .answer-text {
+    flex: 0 1 auto;
+    min-width: 0;
+  }
+
+  #studyScreen.kobun-jodoushi .two-column {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media (max-width: 480px) {
   .container { padding-top: 18px; }
   .question-card { min-height: 270px; padding: 22px 18px; }
