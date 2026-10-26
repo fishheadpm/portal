@@ -8,6 +8,238 @@
   },
   "rounds": [
     {
+      "id": "round12",
+      "name": "第12回",
+      "shuffle": true,
+      "questions": [
+        {
+          "id": "r12q001",
+          "question": "過去",
+          "answer": "past"
+        },
+        {
+          "id": "r12q002",
+          "question": "真実",
+          "answer": "truth"
+        },
+        {
+          "id": "r12q003",
+          "question": "時代(p-)",
+          "answer": "period"
+        },
+        {
+          "id": "r12q004",
+          "question": "～を満足させる",
+          "answer": "satisfy~"
+        },
+        {
+          "id": "r12q005",
+          "question": "ごみくず(l-)",
+          "answer": "litter"
+        },
+        {
+          "id": "r12q006",
+          "question": "狭い",
+          "answer": "narrow"
+        },
+        {
+          "id": "r12q007",
+          "question": "～の前に【3語】",
+          "answer": "in front of~"
+        },
+        {
+          "id": "r12q008",
+          "question": "駐車",
+          "answer": "parking"
+        },
+        {
+          "id": "r12q009",
+          "question": "現れる ⇔ 消える",
+          "answer": "appear ⇔ disappear"
+        },
+        {
+          "id": "r12q010",
+          "question": "個人の、私有の",
+          "answer": "private"
+        },
+        {
+          "id": "r12q011",
+          "question": "込み合った",
+          "answer": "crowded"
+        },
+        {
+          "id": "r12q012",
+          "question": "（社会的な）問題",
+          "answer": "issue"
+        },
+        {
+          "id": "r12q013",
+          "question": "生息地",
+          "answer": "habitat"
+        },
+        {
+          "id": "r12q014",
+          "question": "歩道",
+          "answer": "path"
+        },
+        {
+          "id": "r12q015",
+          "question": "傷つきやすい",
+          "answer": "delicate"
+        },
+        {
+          "id": "r12q016",
+          "question": "賞、景品",
+          "answer": "prize"
+        },
+        {
+          "id": "r12q017",
+          "question": "～を受け入れる",
+          "answer": "accept~"
+        },
+        {
+          "id": "r12q018",
+          "question": "才能のある(t-)",
+          "answer": "talented"
+        },
+        {
+          "id": "r12q019",
+          "question": "～についていく【3語】",
+          "answer": "keep up with~"
+        },
+        {
+          "id": "r12q020",
+          "question": "AとBを比較する【2語】",
+          "answer": "compare A with B"
+        },
+        {
+          "id": "r12q021",
+          "question": "その上、さらに",
+          "answer": "besides"
+        },
+        {
+          "id": "r12q022",
+          "question": "研究、調査、探求",
+          "answer": "research"
+        },
+        {
+          "id": "r12q023",
+          "question": "～とのつながり【2語】",
+          "answer": "connection with~"
+        },
+        {
+          "id": "r12q024",
+          "question": "～を理解する【2語】",
+          "answer": "figure out~"
+        },
+        {
+          "id": "r12q025",
+          "question": "Oを駆り立てて～させる",
+          "answer": "motivate O to V"
+        },
+        {
+          "id": "r12q026",
+          "question": "～を深める",
+          "answer": "deepen~"
+        },
+        {
+          "id": "r12q027",
+          "question": "組織",
+          "answer": "organization"
+        },
+        {
+          "id": "r12q028",
+          "question": "重大な、深刻な",
+          "answer": "serious"
+        },
+        {
+          "id": "r12q029",
+          "question": "伝達する、気持ちを伝え合う",
+          "answer": "communicate"
+        },
+        {
+          "id": "r12q030",
+          "question": "医療の",
+          "answer": "medical"
+        },
+        {
+          "id": "r12q031",
+          "question": "治療",
+          "answer": "treatment"
+        },
+        {
+          "id": "r12q032",
+          "question": "患者",
+          "answer": "patient"
+        },
+        {
+          "id": "r12q033",
+          "question": "注意、関心",
+          "answer": "attention"
+        },
+        {
+          "id": "r12q034",
+          "question": "（難しいが）やりがいのある",
+          "answer": "challenging"
+        },
+        {
+          "id": "r12q035",
+          "question": "注意して、慎重に【2語】",
+          "answer": "with care"
+        },
+        {
+          "id": "r12q036",
+          "question": "近頃、最近",
+          "answer": "recently"
+        },
+        {
+          "id": "r12q037",
+          "question": "ストレスのたまった",
+          "answer": "stressed"
+        },
+        {
+          "id": "r12q038",
+          "question": "前もって",
+          "answer": "beforehand"
+        },
+        {
+          "id": "r12q039",
+          "question": "～することを予期する【2語】",
+          "answer": "expect to V"
+        },
+        {
+          "id": "r12q040",
+          "question": "美しさ",
+          "answer": "beauty"
+        },
+        {
+          "id": "r12q041",
+          "question": "～をやり取りする、交換する",
+          "answer": "exchange ~"
+        },
+        {
+          "id": "r12q042",
+          "question": "国際的な",
+          "answer": "international"
+        },
+        {
+          "id": "r12q043",
+          "question": "思いがけない、予期しない",
+          "answer": "unexpected"
+        },
+        {
+          "id": "r12q044",
+          "question": "～に感銘を与える",
+          "answer": "impress ~"
+        },
+        {
+          "id": "r12q045",
+          "question": "～へ通じる【2語】",
+          "answer": "lead to"
+        }
+      ]
+    },
+    {
       "id": "round11",
       "name": "第11回",
       "shuffle": true,
