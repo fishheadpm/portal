@@ -8,6 +8,238 @@
   },
   "rounds": [
     {
+      "id": "round13",
+      "name": "第13回",
+      "shuffle": true,
+      "questions": [
+        {
+          "id": "r13q001",
+          "question": "賞、景品",
+          "answer": "prize"
+        },
+        {
+          "id": "r13q002",
+          "question": "～を受け入れる",
+          "answer": "accept~"
+        },
+        {
+          "id": "r13q003",
+          "question": "才能のある(t-)",
+          "answer": "talented"
+        },
+        {
+          "id": "r13q004",
+          "question": "～についていく【3語】",
+          "answer": "keep up with~"
+        },
+        {
+          "id": "r13q005",
+          "question": "AとBを比較する【2語】",
+          "answer": "compare A with B"
+        },
+        {
+          "id": "r13q006",
+          "question": "その上、さらに",
+          "answer": "besides"
+        },
+        {
+          "id": "r13q007",
+          "question": "研究、調査、探求",
+          "answer": "research"
+        },
+        {
+          "id": "r13q008",
+          "question": "～とのつながり【2語】",
+          "answer": "connection with~"
+        },
+        {
+          "id": "r13q009",
+          "question": "～を理解する【2語】",
+          "answer": "figure out~"
+        },
+        {
+          "id": "r13q010",
+          "question": "Oを駆り立てて～させる",
+          "answer": "motivate O to V"
+        },
+        {
+          "id": "r13q011",
+          "question": "～を深める",
+          "answer": "deepen~"
+        },
+        {
+          "id": "r13q012",
+          "question": "組織",
+          "answer": "organization"
+        },
+        {
+          "id": "r13q013",
+          "question": "重大な、深刻な",
+          "answer": "serious"
+        },
+        {
+          "id": "r13q014",
+          "question": "伝達する、気持ちを伝え合う",
+          "answer": "communicate"
+        },
+        {
+          "id": "r13q015",
+          "question": "医療の",
+          "answer": "medical"
+        },
+        {
+          "id": "r13q016",
+          "question": "治療",
+          "answer": "treatment"
+        },
+        {
+          "id": "r13q017",
+          "question": "患者",
+          "answer": "patient"
+        },
+        {
+          "id": "r13q018",
+          "question": "注意、関心",
+          "answer": "attention"
+        },
+        {
+          "id": "r13q019",
+          "question": "（難しいが）やりがいのある",
+          "answer": "challenging"
+        },
+        {
+          "id": "r13q020",
+          "question": "注意して、慎重に【2語】",
+          "answer": "with care"
+        },
+        {
+          "id": "r13q021",
+          "question": "近頃、最近",
+          "answer": "recently"
+        },
+        {
+          "id": "r13q022",
+          "question": "ストレスのたまった",
+          "answer": "stressed"
+        },
+        {
+          "id": "r13q023",
+          "question": "前もって",
+          "answer": "beforehand"
+        },
+        {
+          "id": "r13q024",
+          "question": "～することを予期する【2語】",
+          "answer": "expect to V"
+        },
+        {
+          "id": "r13q025",
+          "question": "美しさ",
+          "answer": "beauty"
+        },
+        {
+          "id": "r13q026",
+          "question": "～をやり取りする、交換する",
+          "answer": "exchange ~"
+        },
+        {
+          "id": "r13q027",
+          "question": "国際的な",
+          "answer": "international"
+        },
+        {
+          "id": "r13q028",
+          "question": "思いがけない、予期しない",
+          "answer": "unexpected"
+        },
+        {
+          "id": "r13q029",
+          "question": "～に感銘を与える",
+          "answer": "impress ~"
+        },
+        {
+          "id": "r13q030",
+          "question": "～へ通じる【2語】",
+          "answer": "lead to"
+        },
+        {
+          "id": "r13q031",
+          "question": "～を探査する、探検する",
+          "answer": "explore ~"
+        },
+        {
+          "id": "r13q032",
+          "question": "激しく降る、（～を）注ぐ",
+          "answer": "pour"
+        },
+        {
+          "id": "r13q033",
+          "question": "～を呼び起こす",
+          "answer": "evoke ~"
+        },
+        {
+          "id": "r13q034",
+          "question": "イメージ、像、印象",
+          "answer": "image"
+        },
+        {
+          "id": "r13q035",
+          "question": "気取った、手の込んだ",
+          "answer": "fancy"
+        },
+        {
+          "id": "r13q036",
+          "question": "基本的に",
+          "answer": "basically"
+        },
+        {
+          "id": "r13q037",
+          "question": "鮮やかな、鮮明な",
+          "answer": "vivid"
+        },
+        {
+          "id": "r13q038",
+          "question": "幅広い～【4語】",
+          "answer": "a wide range of ~"
+        },
+        {
+          "id": "r13q039",
+          "question": "味、風味",
+          "answer": "flavor"
+        },
+        {
+          "id": "r13q040",
+          "question": "頭に浮かぶ【3語】",
+          "answer": "come to mind"
+        },
+        {
+          "id": "r13q041",
+          "question": "BにAを加える",
+          "answer": "add A to B"
+        },
+        {
+          "id": "r13q042",
+          "question": "（不思議に）思う",
+          "answer": "wonder"
+        },
+        {
+          "id": "r13q043",
+          "question": "～で有名な",
+          "answer": "be famous for ~"
+        },
+        {
+          "id": "r13q044",
+          "question": "～に出くわす",
+          "answer": "come across ~"
+        },
+        {
+          "id": "r13q045",
+          "question": "～を含む",
+          "answer": "include ~"
+        }
+      ]
+    },
+    {
       "id": "round12",
       "name": "第12回",
       "shuffle": true,
