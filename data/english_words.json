@@ -8,6 +8,238 @@
   },
   "rounds": [
     {
+      "id": "round14",
+      "name": "第14回",
+      "shuffle": true,
+      "questions": [
+        {
+          "id": "r14q001",
+          "question": "治療",
+          "answer": "treatment"
+        },
+        {
+          "id": "r14q002",
+          "question": "患者",
+          "answer": "patient"
+        },
+        {
+          "id": "r14q003",
+          "question": "注意、関心",
+          "answer": "attention"
+        },
+        {
+          "id": "r14q004",
+          "question": "（難しいが）やりがいのある",
+          "answer": "challenging"
+        },
+        {
+          "id": "r14q005",
+          "question": "注意して、慎重に【2語】",
+          "answer": "with care"
+        },
+        {
+          "id": "r14q006",
+          "question": "近頃、最近",
+          "answer": "recently"
+        },
+        {
+          "id": "r14q007",
+          "question": "ストレスのたまった",
+          "answer": "stressed"
+        },
+        {
+          "id": "r14q008",
+          "question": "前もって",
+          "answer": "beforehand"
+        },
+        {
+          "id": "r14q009",
+          "question": "～することを予期する【2語】",
+          "answer": "expect to V"
+        },
+        {
+          "id": "r14q010",
+          "question": "美しさ",
+          "answer": "beauty"
+        },
+        {
+          "id": "r14q011",
+          "question": "～をやり取りする、交換する",
+          "answer": "exchange ~"
+        },
+        {
+          "id": "r14q012",
+          "question": "国際的な",
+          "answer": "international"
+        },
+        {
+          "id": "r14q013",
+          "question": "思いがけない、予期しない",
+          "answer": "unexpected"
+        },
+        {
+          "id": "r14q014",
+          "question": "～に感銘を与える",
+          "answer": "impress ~"
+        },
+        {
+          "id": "r14q015",
+          "question": "～へ通じる【2語】",
+          "answer": "lead to"
+        },
+        {
+          "id": "r14q016",
+          "question": "～を探査する、探検する",
+          "answer": "explore ~"
+        },
+        {
+          "id": "r14q017",
+          "question": "激しく降る、（～を）注ぐ",
+          "answer": "pour"
+        },
+        {
+          "id": "r14q018",
+          "question": "～を呼び起こす",
+          "answer": "evoke ~"
+        },
+        {
+          "id": "r14q019",
+          "question": "イメージ、像、印象",
+          "answer": "image"
+        },
+        {
+          "id": "r14q020",
+          "question": "気取った、手の込んだ",
+          "answer": "fancy"
+        },
+        {
+          "id": "r14q021",
+          "question": "基本的に",
+          "answer": "basically"
+        },
+        {
+          "id": "r14q022",
+          "question": "鮮やかな、鮮明な",
+          "answer": "vivid"
+        },
+        {
+          "id": "r14q023",
+          "question": "幅広い～【4語】",
+          "answer": "a wide range of ~"
+        },
+        {
+          "id": "r14q024",
+          "question": "味、風味",
+          "answer": "flavor"
+        },
+        {
+          "id": "r14q025",
+          "question": "頭に浮かぶ【3語】",
+          "answer": "come to mind"
+        },
+        {
+          "id": "r14q026",
+          "question": "BにAを加える",
+          "answer": "add A to B"
+        },
+        {
+          "id": "r14q027",
+          "question": "（不思議に）思う",
+          "answer": "wonder"
+        },
+        {
+          "id": "r14q028",
+          "question": "～で有名な",
+          "answer": "be famous for ~"
+        },
+        {
+          "id": "r14q029",
+          "question": "～に出くわす",
+          "answer": "come across ~"
+        },
+        {
+          "id": "r14q030",
+          "question": "～を含む",
+          "answer": "include ~"
+        },
+        {
+          "id": "r14q031",
+          "question": "つながり、関係",
+          "answer": "connection"
+        },
+        {
+          "id": "r14q032",
+          "question": "境界",
+          "answer": "boundary"
+        },
+        {
+          "id": "r14q033",
+          "question": "まれな、珍しい",
+          "answer": "rare"
+        },
+        {
+          "id": "r14q034",
+          "question": "～に訴える【2語】",
+          "answer": "appeal to~"
+        },
+        {
+          "id": "r14q035",
+          "question": "かなり、まったく(q-)",
+          "answer": "quite"
+        },
+        {
+          "id": "r14q036",
+          "question": "～の場合【4語】",
+          "answer": "in the case of~"
+        },
+        {
+          "id": "r14q037",
+          "question": "実際は、つまり【2語】",
+          "answer": "in fact"
+        },
+        {
+          "id": "r14q038",
+          "question": "最初は、初めは【2語】",
+          "answer": "at first"
+        },
+        {
+          "id": "r14q039",
+          "question": "～に慣れる【3語】",
+          "answer": "get used to~"
+        },
+        {
+          "id": "r14q040",
+          "question": "試してみる、やってみる【4語】",
+          "answer": "give it a try"
+        },
+        {
+          "id": "r14q041",
+          "question": "～を描写する",
+          "answer": "describe ~"
+        },
+        {
+          "id": "r14q042",
+          "question": "やり方、方法(m-)",
+          "answer": "manner"
+        },
+        {
+          "id": "r14q043",
+          "question": "一方で【4語】",
+          "answer": "on the other hand"
+        },
+        {
+          "id": "r14q044",
+          "question": "さまざまな～【3語】",
+          "answer": "a variety of~"
+        },
+        {
+          "id": "r14q045",
+          "question": "笑う(動詞)-笑い(名詞)",
+          "answer": "laugh - laughter"
+        }
+      ]
+    },
+    {
       "id": "round13",
       "name": "第13回",
       "shuffle": true,
